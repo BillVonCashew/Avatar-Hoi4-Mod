@@ -20,8 +20,8 @@ replace_path="common/ai_strategy"
 replace_path="common/ai_focuses"
 replace_path="common/ai_strategy_plans"
 tags={
-        "Map"
-        "Utilities"
+	"Map"
+	"Utilities"
 }
 picture="blank_map_template_5632x2048.jpg"
 supported_version="1.9.*"
