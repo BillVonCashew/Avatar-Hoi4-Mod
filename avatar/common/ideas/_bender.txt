@@ -49,6 +49,9 @@ ideas = {
 
 			modifier = {
 				special_forces_min = 1000
+				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
 			}
 			
 			cancel_if_invalid = no
@@ -70,6 +73,10 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.4
+				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+
 			}
 			
 			cancel_if_invald = no
@@ -171,6 +178,10 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.6
+				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+
 			}
 
 			cancel_if_invalid = no
@@ -274,6 +285,10 @@ ideas = {
 			modifier = {
 				special_foces_min = 1000
 				conscription_factor = -0.7
+				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+
 			}
 
 			cancel_if_invalid = no
@@ -386,6 +401,10 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.8
+				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+
 			}
 			
 			cancel_if_invalid = no
@@ -487,6 +506,10 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.9
+				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+
 			}
 
 			cancel_if_invalid = no
