@@ -31,7 +31,9 @@ set_research_slots = 2
 set_convoys = 75
 set_stability = 0.7 
 set_war_support = 0.4
-
+add_ideas = {
+        Earth_Nation
+}
 
 set_politics = {
 	ruling_party = monarchism

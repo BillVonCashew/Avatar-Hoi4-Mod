@@ -18,7 +18,9 @@ set_popularities = {
 	pacifism = 5
 }
 
-
+add_ideas = {
+	Earth_Nation
+}
 
 
 create_country_leader = {

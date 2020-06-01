@@ -10,7 +10,9 @@ set_stability = 0.4
 set_war_support = 0.6
 
 
-
+add_ideas = {
+        Earth_Nation
+}
 
 set_politics = {
 	ruling_party = monarchism
