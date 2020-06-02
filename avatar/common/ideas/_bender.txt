@@ -50,7 +50,6 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				industrial_capacity_factory = 0.1
-				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.1
 			}
 			
@@ -74,12 +73,11 @@ ideas = {
 				special_forces_min = 1000
 				conscription_factor = -0.4
 				industrial_capacity_factory = 0.1
-				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.1
 
 			}
 			
-			cancel_if_invald = no
+			cancel_if_invalid = no
 		}
 
 		swamp_siwong_exceptional = {
@@ -178,7 +176,6 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.6
-				industrial_capacity_factory = 0.1
 				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.1
 
@@ -283,9 +280,8 @@ ideas = {
 			}
 
 			modifier = {
-				special_foces_min = 1000
+				special_forces_min = 1000
 				conscription_factor = -0.7
-				industrial_capacity_factory = 0.1
 				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.1
 
@@ -310,7 +306,7 @@ ideas = {
 				}
 			}
 
-			modifer = {
+			modifier = {
 				special_forces_cap = 1.7
 				conscription_factor = -0.525
 			}
@@ -401,7 +397,6 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.8
-				industrial_capacity_factory = 0.1
 				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.1
 
@@ -506,7 +501,6 @@ ideas = {
 			modifier = {
 				special_forces_min = 1000
 				conscription_factor = -0.9
-				industrial_capacity_factory = 0.1
 				industrial_capacity_factory = 0.1
 				production_speed_buildings_factor = 0.1
 
