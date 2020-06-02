@@ -922,13 +922,13 @@ ideas = {
 			}
 	
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = imperialism
 			}
 			
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.2
+				imperialism_drift = 0.2
 			}
 
 		}

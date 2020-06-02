@@ -6,39 +6,6 @@ ideas = {
 	}
 	
 	political_advisor = {
-		azulon = {
-
-			cost = 150
-
-			allowed = {
-				original_tag = FIR
-			}
-			available = {
-				has_government = imperialism
-			}
-			
-			traits = { imperialist_demagogue }
-
-			ai_will_do = {
-				factor = 0.5
-			}
-		}
-
-		sozin = {
-
-			allowed = {
-				original_tag = FIR
-			}
-			available = {
-				has_government = imperialism
-			}
-			
-			traits = { harbour_expansionist }
-
-			ai_will_do = {
-				factor = 0.5
-			}
-		}
 
 	}
 

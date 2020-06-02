@@ -24,6 +24,7 @@ replace_path="common/ai_peace"
 replace_path="common/ai_equipment"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
+replace_path="common/on_actions"
 tags={
 	"Map"
 	"Utilities"
