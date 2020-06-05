@@ -76,7 +76,7 @@ buildings = {
 		base_cost = 2000
 		icon_frame = 5
 		air_base = yes
-		max_level = 10
+		max_level = 20
 		value = 1
 		damage_factor = 0.5
 	}
