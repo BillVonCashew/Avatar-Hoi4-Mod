@@ -2676,6 +2676,11 @@ technologies = {
 			name = electronics_folder
 			position = { x = 1 y = 32 }
 		}
+
+		folder = {
+			name = construction_folder
+			position = { x = -3 y = 0 }
+		}
 		
 		ai_will_do = {
 			factor = 30

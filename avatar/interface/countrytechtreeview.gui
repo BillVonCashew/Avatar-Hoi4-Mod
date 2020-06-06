@@ -3129,19 +3129,28 @@ guiTypes = {
 					name ="GFX_construction_techtree_bg"
 					spriteType = "GFX_construction_techtree_bg"
 					position = { x=0 y=0 }
+				}
+				iconType = {
+					name ="GFX_construction_techtree_bg2"
+					spriteType = "GFX_construction_techtree_bg2"
+					position = { x=640 y=0 }
 				}	
-
+				iconType = {
+					name ="GFX_construction_techtree_bg3"
+					spriteType = "GFX_construction_techtree_bg3"
+					position = { x=1320 y=0 }
+				}	
 				
 				
 				}
 
 				instantTextBoxType = {
 					name = "construction_subtitle"
-					position = { x = 580 y = 110 }
+					position = { x = 510 y = 110 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 2}
-					text = "PRODUCTION_BUILDINGS"
+					text = "CIVIL_BUILDINGS"
 					maxWidth = 300
 					maxHeight = 62
 					format = center
@@ -3149,21 +3158,8 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "construction_subtitle_factories"
-					position = { x = 360 y = 230 }
-					textureFile = ""
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}	
-
-				instantTextBoxType = {
 					name = "construction_subtitle_resources"
-					position = { x = 910 y = 230 }
+					position = { x = 1180 y = 130 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
@@ -3176,7 +3172,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "construction_subtitle_fortress"
-					position = { x = 1570 y = 130 }
+					position = { x = 230 y = 230 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
@@ -3185,33 +3181,32 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}		
-
-				instantTextBoxType = {
-					name = "construction_subtitle_naval"
-					position = { x = 1410 y = 230 }
-					textureFile = ""
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "NAVAL"
-					maxWidth = 200
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}		
+				}			
 
 				instantTextBoxType = {
 					name = "construction_subtitle_intel"
-					position = { x = 1770 y = 230 }
+					position = { x = 1840 y = 130 }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INTEL"
+					text = "INTEL_AND_AIR"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}					
+				}		
+
+			containerWindowType = {
+				name = "tiled_research_bg"
+				position = { x=1680 y=260 }
+				size = { width = 500 height = 770 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}			
 
 				
 			gridboxtype = {
@@ -3223,17 +3218,24 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "watchtower_1_tree"
-				position = { x = 1080 y = 180 }
+				name = "farm_and_lumber_tree"
+				position = { x = 1020 y = 180 }
 				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
-				name = "farm_and_lumber_tree"
-				position = { x = 1480 y = 180 }
+				name = "watchtower_1_tree"
+				position = { x = 1680 y = 180 }
 				size = { width = 520 height = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "reform_4_tree"
+				position = { x = 1680 y = 180 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
