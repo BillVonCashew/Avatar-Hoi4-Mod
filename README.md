@@ -11,21 +11,21 @@ Currently this is just in beta, dont expect a full game experience here
 [❌] Cancelled  
   
 ##Phase 1: Foundations  
-[✅] Society Tech Tree 
+[✅] Society Tech Tree  
 ↳ [🕘] Icons for Society Tech  
-  [🕘] Localization for Society Tree
+  [🕘] Localization for Society Tree  
 [✅] Industry Tech Tree  
-↳ [🕘] Icons for Industry Tech
-  [🕘] Localization for Industry Tech
-  [🕘] Effects for Industry
+↳ [🕘] Icons for Industry Tech  
+  [🕘] Localization for Industry Tech  
+  [🕘] Effects for Industry  
 [✅] Construction Tech Tree  
-↳ [🕘] Icons for Construction Tech 
-  [🕘] Localization for Construction Tech
+↳ [🕘] Icons for Construction Tech  
+  [🕘] Localization for Construction Tech  
 [✅] Education Laws  
 ↳ [🕘] Icons for Education Laws  
 [✅] Bender and Conscription Laws  
 ↳ [🕘] Icons for Bender and Conscription Laws  
-[  ] Rework of the Doctrines
-[  ] Mobile Tech Tree
+[  ] Rework of the Doctrines  
+[  ] Mobile Tech Tree  
   
 ##Phase 2: Focus and Events
