@@ -1332,7 +1332,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = steelworks
+			leads_to_tech = steelworks_1
 			research_cost_coeff = 1
 		}
 		
@@ -1357,16 +1357,11 @@ technologies = {
 		}	
 	}
 
-	steelworks = {
+	steelworks_1 = {
 
 		enable_building = {
 			building = steelworks
 			level = 10
-		}
-		
-		path = {
-			leads_to_tech = steelworks
-			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -1434,6 +1429,10 @@ technologies = {
 	}
 
 	air_base_1 = {
+
+		dependencies = {
+			reform_4 = 1
+		}
 
 		enable_building = {
 			building = air_base
@@ -1591,6 +1590,10 @@ technologies = {
 	}
 
 	anti_air_1 = {
+
+		dependencies = {
+			reform_4 = 1
+		}
 
 		enable_building = {
 			building = anti_air_building

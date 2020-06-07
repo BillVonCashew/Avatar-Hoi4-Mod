@@ -3234,8 +3234,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "reform_4_tree"
-				position = { x = 1680 y = 180 }
+				name = "reform_0_tree"
+				position = { x = 1640 y = 180 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
