@@ -2,111 +2,6 @@ ideas = {
 	mobilization_laws = {
 		law = yes
 	 	use_list_view = yes	
-		extensive_conscription = {
-			cost = 150
-			default = yes
-			available = {
-				has_war_support > 0.2
-			}
-			
-			removal_cost = -1
-			level = 4
-			modifier = {
-				conscription = 0.05
-				mobilization_speed = 0.05
-				training_time_factor = 0.1
-			}
-
-			cancel_if_invalid = no
-		}
-
-		service_by_requirement = {
-			cost = 150
-			available = {
-				OR = {
-					has_government = imperialism
-					has_government = tribalism
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.6
-					}
-				}
-
-				OR = {
-					has_war_support > 0.6
-					surrender_progress > 0
-				}
-			}
-
-			removal_cost = -1
-			level = 3
-
-			modifier = {
-				conscription = 0.1
-				mobilization_speed = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_speed_buildings_factor = -0.1
-				training_time_factor = 0.2
-			}
-
-			cancel_if_invalid = no
-		}
-
-		all_adults_serve = {
-			
-			cost = 150
-			available = {
-				has_war = yes
-				OR = {
-					has_war_support > 0.7
-					surrender_progress > 0
-				}
-				enemies_strength_ratio > 0.75
-			}
-
-			removal_cost = -1
-			level = 2
-
-			modifier = {
-				conscription = 0.2
-				mobilization_speed = 0.2
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				training_time_factor = 0.3
-			}
-
-			cancel_if_invalid = no
-		}
-
-		scraping_the_barrel = {
-			
-			cost = 150
-			available = {
-				has_war = yes
-
-				OR = {
-					has_war_support > 0.85
-					surrender_progress > 0.25
-				}
-				enemies_strength_ratio > 1
-			}
-
-			removal_cost = -1
-			level = 1
-				
-			modifier = {
-				conscription = 0.25
-				mobilization_speed = 0.25
-				industrial_capacity_factory = -0.4
-				indutrial_capacity_dockyard = -0.4
-				production_speed_buildings_factor = -0.4
-				training_time_factor = 0.5
-			}
-
-			cancel_if_invalid = no
-		}
 
 		disamerd_water_nation = {
 			visible = { 
@@ -328,6 +223,112 @@ ideas = {
 
                         cancel_if_invalid = no
                 }
+		extensive_conscription = {
+			cost = 150
+			default = yes
+			available = {
+				has_war_support > 0.2
+			}
+			
+			removal_cost = -1
+			level = 4
+			modifier = {
+				conscription = 0.05
+				mobilization_speed = 0.05
+				training_time_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+
+		service_by_requirement = {
+			cost = 150
+			available = {
+				OR = {
+					has_government = imperialism
+					has_government = tribalism
+					AND = {
+						has_war = yes
+						enemies_strength_ratio > 0.6
+					}
+				}
+
+				OR = {
+					has_war_support > 0.6
+					surrender_progress > 0
+				}
+			}
+
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				conscription = 0.1
+				mobilization_speed = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.2
+			}
+
+			cancel_if_invalid = no
+		}
+
+		all_adults_serve = {
+			
+			cost = 150
+			available = {
+				has_war = yes
+				OR = {
+					has_war_support > 0.7
+					surrender_progress > 0
+				}
+				enemies_strength_ratio > 0.75
+			}
+
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+				conscription = 0.2
+				mobilization_speed = 0.2
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				training_time_factor = 0.3
+			}
+
+			cancel_if_invalid = no
+		}
+
+		scraping_the_barrel = {
+			
+			cost = 150
+			available = {
+				has_war = yes
+
+				OR = {
+					has_war_support > 0.85
+					surrender_progress > 0.25
+				}
+				enemies_strength_ratio > 1
+			}
+
+			removal_cost = -1
+			level = 1
+				
+			modifier = {
+				conscription = 0.25
+				mobilization_speed = 0.25
+				industrial_capacity_factory = -0.4
+				indutrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = 0.5
+			}
+
+			cancel_if_invalid = no
+		}
+
 
 	}
 
