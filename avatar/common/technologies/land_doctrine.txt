@@ -13,7 +13,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_tactic = tactic_overwhelming_fire
+		enable_tactic = tactic_volley_fire
 		experience_gain_army = 0.01
 		experience_gain_navy = 0.01
 		experience_gain_air = 0.01
@@ -64,7 +64,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 8 }
 		}
 
 		categories = {
