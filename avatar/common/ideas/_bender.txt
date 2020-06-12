@@ -1,34 +1,4 @@
 ideas = {
-	country = {
-		Water_Nation = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-		}
-
-		Earth_Nation = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-		}
-
-		Fire_Nation = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-		}
-
-		Air_Nation = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-		}
-	}
-
 
 	bender_laws = { 
 		law = yes
@@ -42,7 +12,7 @@ ideas = {
 
 			visible = {
 				OR = {
-					has_idea = Air_Nation
+					has_country_flag = Air_Nation
 					tag = SNW
 				}
 			}
@@ -167,7 +137,7 @@ ideas = {
 			level = 5
 
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = Water_Nation
 				NOT = {
 					tag = SWA
 				}
@@ -190,7 +160,7 @@ ideas = {
 			level = 4
 
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = Water_Nation
 				NOT = {
 					tag = SWA
 				}
@@ -209,7 +179,7 @@ ideas = {
 			level = 3
 
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = Water_Nation
 				NOT = {
 					tag = SWA
 				}
@@ -230,7 +200,7 @@ ideas = {
 			level = 2
 
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = Water_Nation
 				NOT = {
 					tag = SWA
 				}
@@ -251,7 +221,7 @@ ideas = {
 			level = 1
 			
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = Water_Nation
 				NOT = {
 					tag =  MPO
 				}
@@ -270,7 +240,7 @@ ideas = {
 			removal_cost = -1
 			level = 5
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = Earth_Nation
 				NOT = {
 					OR = {
 						tag = MPO
@@ -297,7 +267,7 @@ ideas = {
 			level = 4
 
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = Earth_Nation
 				NOT = {
 					OR = {
 						tag = MPO
@@ -320,7 +290,7 @@ ideas = {
 			level = 3
 
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = Earth_Nation
 				NOT = {
 					OR = {
 						tag = MPO
@@ -343,7 +313,7 @@ ideas = {
 			level = 2
 
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = Earth_Nation
 				NOT = {
 					OR = {
 						tag = MPO
@@ -366,7 +336,7 @@ ideas = {
 			level = 1
 
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = Earth_Nation
 				NOT = {
 					OR = {
 						tag = MPO
@@ -388,7 +358,7 @@ ideas = {
 			removal_cost = -1
 			level = 5
 			visible = {
-				has_idea = Fire_Nation
+				has_country_flag = Fire_Nation
 				NOT = {
 					tag =  SNW
 				}
@@ -412,7 +382,7 @@ ideas = {
 			level = 4
 
 			visible = {
-				has_idea = Fire_Nation
+				has_country_flag = Fire_Nation
 				NOT = {
 					tag = SNW
 				}
@@ -433,7 +403,7 @@ ideas = {
 			level = 3
 
 			visible = {
-				has_idea = Fire_Nation
+				has_country_flag = Fire_Nation
 				NOT = {
 					tag = SNW
 				}
@@ -454,7 +424,7 @@ ideas = {
 			level = 2
 
 			visible = {
-				has_idea = Fire_Nation
+				has_country_flag = Fire_Nation
 				NOT = {
 					tag = SMW
 				}
@@ -475,7 +445,7 @@ ideas = {
 			level = 1
 
 			visible = {
-				has_idea = Fire_Nation
+				has_country_flag = Fire_Nation
 				NOT = {
 					tag = SNW
 				}

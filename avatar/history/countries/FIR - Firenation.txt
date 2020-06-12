@@ -1,6 +1,8 @@
 capital = 417
 
 OOB = "FIR_12"
+
+set_country_flag = Fire_Nation
 set_country_flag = FIR_armor
 set_country_flag = FIR_special_forces
 
@@ -85,10 +87,10 @@ add_ideas = {
 
 	#slight_war_exhaustion_gui
 
+	limited_fire_conscription
+	fire_auxiliary
 	limited_exports
 	partial_economic_mobilisation 
-	limited_conscription
-	firebender_law_1
 	family_support_3
 }
 
