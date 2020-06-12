@@ -93,6 +93,7 @@ add_ideas = {
 	limited_exports
 	partial_economic_mobilisation 
 	family_support_3
+	mandatory_education
 }
 
 52.1.1 ={
