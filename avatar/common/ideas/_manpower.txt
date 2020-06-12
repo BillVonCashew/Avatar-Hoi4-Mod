@@ -3,7 +3,7 @@ ideas = {
 		law = yes
 	 	use_list_view = yes	
 
-		disamerd_water_nation = {
+		disarmed_water_nation = {
 			visible = { 
 				has_country_flag = water_nation
 			}
@@ -20,7 +20,7 @@ ideas = {
 			}
 			cancel_if_invalid = no
 		}
-		volunteer_water_only = {
+		volunteer_water_nation = {
 			visible = {
 				has_country_flag = water_nation
 			}

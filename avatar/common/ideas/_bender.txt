@@ -91,7 +91,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		swamp_siwong_auixiliary = {
+		swamp_siwong_auxiliary = {
 			cost = 150
 			removal_cost = -1
 			level = 2
@@ -259,7 +259,6 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-
 		earth_exceptional = {
 			
 			cost = 150
