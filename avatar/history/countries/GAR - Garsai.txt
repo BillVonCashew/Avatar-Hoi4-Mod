@@ -28,6 +28,7 @@ set_popularities = {
 }
 
 set_cosmetic_tag = GAR_puppet
+set_country_flag = earth_nation 
 
 52.1.1 ={
 

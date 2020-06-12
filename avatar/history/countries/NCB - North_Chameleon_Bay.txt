@@ -34,6 +34,7 @@ set_stability = 0.6
 set_war_support = 0.4
 
 
+set_country_flag = earth_nation 
 
 
 set_politics = {

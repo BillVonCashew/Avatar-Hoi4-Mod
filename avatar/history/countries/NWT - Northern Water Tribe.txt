@@ -15,6 +15,7 @@ set_technology = {
 }
 
 set_research_slots = 2
+set_country_flag = water_nation 
 
 set_convoys = 60
 

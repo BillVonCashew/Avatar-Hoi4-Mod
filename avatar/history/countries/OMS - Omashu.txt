@@ -26,6 +26,7 @@ set_technology = {
 set_research_slots = 1
 
 set_convoys = 300
+set_country_flag = earth_nation 
 
 
 set_politics = {

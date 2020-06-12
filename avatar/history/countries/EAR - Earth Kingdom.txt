@@ -47,8 +47,8 @@ add_ideas = {
 	partial_economic_mobilisation 
 	limited_conscription
 	family_support_3
-	Earth_Nation
 }
+set_country_flag = earth_nation 
 
 create_faction = Earth_Kingdom
 add_to_faction = EAR

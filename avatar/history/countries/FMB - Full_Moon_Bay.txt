@@ -32,9 +32,7 @@ set_convoys = 120
 set_stability = 0.6 
 set_war_support = 0.5
 
-add_ideas = {
-        Earth_Nation
-}
+set_country_flag = earth_nation 
 
 
 set_politics = {
