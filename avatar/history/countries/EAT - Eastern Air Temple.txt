@@ -34,9 +34,7 @@ set_popularities = {
 	pacifism = 70
 }
 
-add_ideas = {
-	Air_Nation
-}
+set_country_flag = air_nation 
 
 52.1.1 ={
 	

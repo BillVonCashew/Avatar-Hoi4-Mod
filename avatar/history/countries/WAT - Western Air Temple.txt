@@ -3,6 +3,7 @@ capital = 208
 OOB = "WAT_12"
 set_country_flag = AIR_air_techs
 set_country_flag = AIR_special_forces
+set_country_flag = air_nation 
 
 set_technology = {
 	flying_bisons = 1

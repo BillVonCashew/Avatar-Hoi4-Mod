@@ -5,7 +5,7 @@ ideas = {
 
 		disamerd_water_nation = {
 			visible = { 
-				has_idea = Water_Nation
+				has_country_flag = water_nation
 			}
 
 			cost = 150
@@ -22,7 +22,7 @@ ideas = {
 		}
 		volunteer_water_only = {
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = water_nation
 			}
 			
 			cost = 150
@@ -40,7 +40,7 @@ ideas = {
 		}
 		limited_water_conscription = {
 			visible = {
-				has_idea = Water_Nation
+				has_country_flag = water_nation
 			}
 			available = {
 				has_war_support > 0.1
@@ -60,7 +60,7 @@ ideas = {
 		}
 		disarmed_earth_nation = {
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = earth_nation
 			}
 
 			cost = 150
@@ -78,7 +78,7 @@ ideas = {
 		}
 		volunteer_earth_nation = {
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = earth_nation
 			}
 			cost = 150
 			removal_cost = -1
@@ -95,7 +95,7 @@ ideas = {
 		}
 		limited_earth_conscription = {
 			visible = {
-				has_idea = Earth_Nation
+				has_country_flag = earth_nation
 			}
 
 			cost = 150
@@ -113,7 +113,7 @@ ideas = {
 		}
                 disarmed_fire_nation = {
                         visible = {
-                                has_idea = Fire_Nation
+				has_country_flag = fire_nation
                         }
 
                         cost = 150
@@ -131,7 +131,7 @@ ideas = {
                 }
                 volunteer_fire_nation = {
                         visible = {
-                                has_idea = Fire_Nation
+				has_country_flag = fire_nation
                         }
 
                         cost = 150
@@ -149,7 +149,7 @@ ideas = {
                 }
                 limited_fire_conscription = {
                         visible = {
-                                has_idea = Fire_Nation
+				has_country_flag = fire_nation
                         }
                         cost = 150
                         removal_cost = -1
@@ -166,7 +166,7 @@ ideas = {
                 }
                 disarmed_air_nation = {
                         visible = {
-                                has_idea = Air_Nation
+				has_country_flag = air_nation
                         }
 			
                         cost = 150
@@ -185,7 +185,7 @@ ideas = {
                 }
                 volunteer_air_nation = {
                         visible = {
-                                has_idea = Air_Nation
+				has_country_flag = air_nation
                         }
 
                         cost = 150
@@ -205,7 +205,7 @@ ideas = {
                 }
                 limited_air_conscription = {
                         visible = {
-                                has_idea = Air_Nation
+				has_country_flag = air_nation
                         }
 
                         cost = 150
