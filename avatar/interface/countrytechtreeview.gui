@@ -3410,21 +3410,21 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "substance_tree"
-				position = { x=560 y=130 }
+				position = { x=80 y=130 }
 				size = { width = 478 height = 1350 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"				
 			}
 			gridboxtype = {
 				name = "change_tree"
-				position = { x=1040 y=130 }
+				position = { x=80 y=130 }
 				size = { width = 478 height = 1350 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"				
 			}
 			gridboxtype = {
 				name = "freedom_tree"
-				position = { x=1520 y=130 }
+				position = { x=80 y=130 }
 				size = { width = 478 height = 1350 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"				
