@@ -16,7 +16,7 @@ ideas = {
 				war_support_factor = -0.05
 				stability_factor = -0.1
 
-				research_time_factor = 0.10
+				research_speed_factor = 0.10
 			}
 		}
 
@@ -34,7 +34,7 @@ ideas = {
 				war_support_factor = -0.1
 				stability_factor = -0.2
 
-				research_time_factor = 0.20
+				research_speed_factor = 0.20
 			}
 		}
 
@@ -52,7 +52,7 @@ ideas = {
 				war_support_factor = -0.15
 				stability_factor = -0.3
 
-				research_time_factor = 0.30
+				research_speed_factor = 0.30
 			}
 		}
 
@@ -70,7 +70,7 @@ ideas = {
 				war_support_factor = -0.2
 				stability_factor = -0.4
 
-				research_time_factor = 0.40
+				research_speed_factor = 0.40
 			}
 		}
 
@@ -88,7 +88,7 @@ ideas = {
 				war_support_factor = -0.25
 				stability_factor = -0.5
 
-				research_time_factor = 0.50
+				research_speed_factor = 0.50
 			}
 		}
 
@@ -106,7 +106,7 @@ ideas = {
 				war_support_factor = -0.3
 				stability_factor = -0.6
 
-				research_time_factor = 0.60
+				research_speed_factor = 0.60
 			}
 		}
 
@@ -124,7 +124,7 @@ ideas = {
 				war_support_factor = -0.35
 				stability_factor = -0.7
 
-				research_time_factor = 0.70
+				research_speed_factor = 0.70
 			}
 		}
 
@@ -142,7 +142,7 @@ ideas = {
 				war_support_factor = -0.4
 				stability_factor = -0.8
 
-				research_time_factor = 0.80
+				research_speed_factor = 0.80
 			}
 		}
 
@@ -160,7 +160,7 @@ ideas = {
 				war_support_factor = -0.45
 				stability_factor = -0.9
 
-				research_time_factor = 0.90
+				research_speed_factor = 0.90
 			}
 		}
 
@@ -178,7 +178,7 @@ ideas = {
 				war_support_factor = -0.5
 				stability_factor = -1
 
-				research_time_factor = 1
+				research_speed_factor = 1
 			}
 		}
 	}

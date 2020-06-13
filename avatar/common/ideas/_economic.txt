@@ -14,7 +14,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.35
 				production_speed_industrial_complex_factor = -0.3
-				production_speed_amrs_factory_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
 				#conversion_cost_civ_to_mil_factor= 0.3
 				#conversion_cost_mil_to_civ_factor = 0.3
 				max_fuel_factor = -0.25
@@ -174,8 +174,14 @@ ideas = {
 					# never take this if we are on low conscription laws for safety
 					factor = 0
 					OR = {
-						has_idea = volunteer_only
-						has_idea = limited_conscription
+						has_idea = volunteer_water_only
+						has_idea = volunteer_earth_only
+						has_idea = volunteer_fire_only
+						has_idea = volunteer_air_only
+						has_idea = limited_water_conscription
+						has_idea = limited_earth_conscription
+						has_idea = limited_fire_conscription
+						has_idea = limited_air_conscription
 					}
 				}
 
@@ -277,7 +283,6 @@ ideas = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -287,7 +292,6 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = democratic }
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy

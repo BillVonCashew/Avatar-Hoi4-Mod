@@ -451,7 +451,7 @@ ideas = {
 			}
 			
 			modifier = {
-				special_forces_cap = 0.33
+				special_forces_cap = 0.25
 			}
 			
 			cancel_if_invalid = no
