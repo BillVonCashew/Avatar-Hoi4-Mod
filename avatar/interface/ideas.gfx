@@ -62,23 +62,40 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_idea_firebender_law_1"
-		texturefile = "gfx/interface/ideas/idea_firebender_law_1.dds"
+		name = "GFX_idea_no_education"
+		texturefile = "gfx/interface/ideas/idea_education_law_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_firebender_law_2"
-		texturefile = "gfx/interface/ideas/idea_firebender_law_1.dds"
+		name = "GFX_idea_average_education"
+		texturefile = "gfx/interface/ideas/idea_education_law_3.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_firebender_law_3"
-		texturefile = "gfx/interface/ideas/idea_firebender_law_1.dds"
+		name = "GFX_idea_mandatory_education"
+		texturefile = "gfx/interface/ideas/idea_education_law_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_firebender_law_4"
-		texturefile = "gfx/interface/ideas/idea_firebender_law_1.dds"
+		name = "GFX_idea_indoctrination"
+		texturefile = "gfx/interface/ideas/idea_education_law_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_fire_benders_only"
+		texturefile = "gfx/interface/ideas/idea_firebender_law_5.dds"
 	}
 	SpriteType = {
-		name = "GFX_idea_firebender_law_5"
+		name = "GFX_idea_fire_exceptional"
+		texturefile = "gfx/interface/ideas/idea_firebender_law_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fire_volunteers"
+		texturefile = "gfx/interface/ideas/idea_firebender_law_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fire_auxiliary"
+		texturefile = "gfx/interface/ideas/idea_firebender_law_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fire_indiscriminate"
 		texturefile = "gfx/interface/ideas/idea_firebender_law_1.dds"
 	}
 
