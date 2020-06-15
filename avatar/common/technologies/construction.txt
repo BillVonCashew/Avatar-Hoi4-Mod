@@ -878,7 +878,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = textile_1
+			leads_to_tech = weaving_1
 			research_cost_coeff = 1
 		}
 		
@@ -903,7 +903,7 @@ technologies = {
 		}	
 	}
 
-	textile_1 = {
+	weaving_1 = {
 
 		enable_building = {
 			building = weaving
@@ -911,7 +911,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = textile_2
+			leads_to_tech = weaving_2
 			research_cost_coeff = 1
 		}
 		
@@ -936,7 +936,7 @@ technologies = {
 		}	
 	}
 
-	textile_2 = {
+	weaving_2 = {
 
 		enable_building = {
 			building = weaving
@@ -944,7 +944,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = textile_3
+			leads_to_tech = weaving_3
 			research_cost_coeff = 1
 		}
 		
@@ -969,7 +969,7 @@ technologies = {
 		}	
 	}
 
-	textile_3 = {
+	weaving_3 = {
 
 		enable_building = {
 			building = weaving
