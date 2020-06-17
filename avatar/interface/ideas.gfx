@@ -78,6 +78,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_education_law_1.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_disarmed_fire_nation"
+		texturefile = "gfx/interface/ideas/idea_disarmed_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_fire_nation"
+		texturefile = "gfx/interface/ideas/idea_volunteer_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_fire_conscription"
+		texturefile = "gfx/interface/ideas/idea_limited_conscription.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_idea_fire_benders_only"
 		texturefile = "gfx/interface/ideas/idea_firebender_law_5.dds"
