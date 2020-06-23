@@ -4,4 +4,4 @@
 8218 = { 8218 }		#Caldera Harbour
 
 
-10462 = { 10462 }	#Royal Palace
+10462 = { 10462 }	#Ba Sing Se Royal Palace
