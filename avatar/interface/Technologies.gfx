@@ -124,6 +124,15 @@ spriteTypes = {
 	}
 
 
+	### society ###
+
+	SpriteType = {
+		name = "GFX_reform_0_medium"
+		texturefile = "gfx/interface/technologies/society/leaving_the_lion_turtles.dds"
+		alwaystransparent = yes
+	}
+
+
 	### construction ###
 
 	SpriteType = {
