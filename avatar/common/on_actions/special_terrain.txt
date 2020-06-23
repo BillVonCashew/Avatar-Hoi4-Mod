@@ -19,6 +19,14 @@ on_actions = {
 				}
 			}
 
+
+
+			10462 = { # Ba Sing Se Royal Palace
+				add_province_modifier = {
+					static_modifiers = { terrain_bss_palace }
+					province = { id = 10462	}
+				}
+			}
 			
 		}
 	}

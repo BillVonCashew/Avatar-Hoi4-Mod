@@ -18,5 +18,11 @@ spriteTypes = {
 		name = "GFX_terrain_taku"
 		textureFile = "gfx/interface/terrains/terrain_taku.dds"
 	}
+
+	# UPPER RING
+	spriteType = {
+		name = "GFX_terrain_bss_royal_palace"
+		textureFile = "gfx/interface/terrains/Ba_Sing_Se_Inner_Circle.dds"
+	}
 	
 }

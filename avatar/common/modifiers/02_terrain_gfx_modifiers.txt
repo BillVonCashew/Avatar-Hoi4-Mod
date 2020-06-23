@@ -2,3 +2,4 @@
 
 terrain_caldera = { }
 terrain_caldera_harbour = { }
+terrain_bss_palace = { }

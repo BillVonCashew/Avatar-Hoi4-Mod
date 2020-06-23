@@ -2,3 +2,6 @@
 
 
 8218 = { 8218 }		#Caldera Harbour
+
+
+10462 = { 10462 }	#Royal Palace
