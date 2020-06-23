@@ -145,6 +145,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_waterbender_law_1.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_idea_air_benders_only"
+		texturefile = "gfx/interface/ideas/idea_airbender_law_1.dds"
+	}
+
 
 
 
