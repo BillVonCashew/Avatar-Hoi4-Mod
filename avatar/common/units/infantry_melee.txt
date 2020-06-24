@@ -44,6 +44,23 @@ sub_units = {
 			spear_equipment = 100
 			light_armor_equipment = 100
 		}
+
+		forest = {
+			attack = -0.3
+			defence = -0.2
+			movement = -0.1
+		}
+		jungle = {
+			attack = -0.4
+			defence = -0.3
+			movement = -0.2
+		}
+		urban = {
+			attack = -0.25
+		}
+		village = {
+			attack = -0.1
+		}
 	}
 
 	swordsmen = {
@@ -126,7 +143,7 @@ sub_units = {
 	
 		need = {
 			pike_equipment = 100
-			heavy_armor_equipment = 100
+			light_armor_equipment = 100
 		}
 	}
 

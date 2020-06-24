@@ -86,6 +86,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_adjuster_village_bg"
+		textureFile = "gfx//interface//village_icon.dds"
+	}
+
+	spriteType = {
 		name = "GFX_adjuster_forest_bg"
 		textureFile = "gfx//interface//forest_icon.dds"
 	}
