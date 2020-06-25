@@ -1431,7 +1431,7 @@ technologies = {
 	air_base_1 = {
 
 		dependencies = {
-			reform_4 = 1
+			reform_3 = 1
 		}
 
 		enable_building = {
