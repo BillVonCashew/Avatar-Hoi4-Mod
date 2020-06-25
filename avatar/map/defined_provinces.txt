@@ -5,3 +5,25 @@
 
 
 10462 = { 10462 }	#Ba Sing Se Royal Palace
+
+
+7671 = { 7671 }		#Jang Hui
+
+
+7765 = { 7765 }		#Fire Temple
+
+
+7662 = { 7762 }		#Shu Jing
+
+
+2387 = { 2387 }		#Fire Fountain Town
+
+
+8829 = { 8829 }		#Bhanti Temple
+
+
+3731 = { 3731 }		#Ember Island
+
+
+7618 = { 7618 }		#Sun City
+

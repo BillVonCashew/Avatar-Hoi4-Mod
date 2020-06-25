@@ -25,4 +25,39 @@ spriteTypes = {
 		textureFile = "gfx/interface/terrains/Ba_Sing_Se_Inner_Circle.dds"
 	}
 	
+	# JANG HUI
+	spriteType = {
+		name = "GFX_terrain_jang_hui"
+		textureFile = "gfx/interface/terrains/terrain_jang_hui.dds"
+	}
+	# CRESCENT ISLAND
+	spriteType = {
+		name = "GFX_terrain_fire_temple"
+		textureFile = "gfx/interface/terrains/terrain_fire_temple.dds"
+	}
+	# SHU JING
+	spriteType = {
+		name = "GFX_terrain_shu_jing"
+		textureFile = "gfx/interface/terrains/terrain_shu_jing.dds"
+	}
+	# WEST FIREFOUNTAIN ISLAND
+	spriteType = {
+		name = "GFX_terrain_fire_fountain"
+		textureFile = "gfx/interface/terrains/terrain_fire_fountain.dds"
+	}
+	# BHANTI TEMPLE
+	spriteType = {
+		name = "GFX_terrain_bhanti_temple"
+		textureFile = "gfx/interface/terrains/terrain_bhanti_temple.dds"
+	}
+	# EMBER ISLAND
+	spriteType = {
+		name = "GFX_terrain_ember_island"
+		textureFile = "gfx/interface/terrains/terrain_ember_island.dds"
+	}
+	# WEST SUN ISLAND
+	spriteType = {
+		name = "GFX_terrain_sun_city"
+		textureFile = "gfx/interface/terrains/terrain_sun_city.dds"
+	}
 }

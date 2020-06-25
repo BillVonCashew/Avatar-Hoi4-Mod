@@ -27,7 +27,65 @@ on_actions = {
 					province = { id = 10462	}
 				}
 			}
-			
+		
+
+
+			7671 = { # Jang Hui Floating City
+				add_province_modifier = {
+					static_modifiers = { terrain_jang_hui }
+					province = { id = 7671	}
+				}
+			}
+		
+
+
+			7765 = { # Roku Fire Temple
+				add_province_modifier = {
+					static_modifiers = { terrain_fire_temple }
+					province = { id = 7765	}
+				}
+		
+
+
+			7662 = { # Shu Jing City
+				add_province_modifier = {
+					static_modifiers = { terrain_shu_jing }
+					province = { id = 7662	}
+				}
+			}
+		
+
+
+			2387 = { # Fire Fountain Town
+				add_province_modifier = {
+					static_modifiers = { terrain_fire_fountain }
+					province = { id = 2387	}
+				}
+		
+
+
+			8829 = { # Bhanti Temple
+				add_province_modifier = {
+					static_modifiers = { terrain_bhanti_temple }
+					province = { id = 8829	}
+				}
+		
+
+
+			3731 = { # Ember Island
+				add_province_modifier = {
+					static_modifiers = { terrain_ember_island }
+					province = { id = 3731	}
+				}
+		
+
+
+			7618 = { # Sun City
+				add_province_modifier = {
+					static_modifiers = { terrain_sun_city }
+					province = { id = 7618	}
+				}
+			}		
 		}
 	}
 }
