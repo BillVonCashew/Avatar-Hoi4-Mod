@@ -27,14 +27,14 @@ sub_units = {
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
-		manpower = 40
+		manpower = 120
 		training_time = 120
 
 		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.02
 		
-		entrenchment  = 5
+		entrenchment  = 1
 
 				
 		defense = 0.1
@@ -48,7 +48,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 40
+			support_equipment = 120
 		}
 
 		can_be_parachuted = no
@@ -111,14 +111,14 @@ sub_units = {
 		combat_width = 1
 	
 		#Size Definitions
-		max_strength = 1
-		max_organisation = 10	
+		max_strength = 0
+		max_organisation = 20	
 		default_morale = 0.3
 		manpower = 60
 		training_time = 120
 
 		#Misc Abilities
-		weight = 0.1
+		weight = 1
 		can_be_parachuted = no
 
 		# Important Ability
@@ -160,20 +160,20 @@ sub_units = {
 		combat_width = 1
 	
 		#Size Definitions
-		max_strength = 1
-		max_organisation = 20	
-		default_morale = 0.3
+		max_strength = 5
+		max_organisation = 5	
+		default_morale = 0.5
 		manpower = 25
 		training_time = 120
 
 		#Misc Abilities
-		weight = 0.1
+		weight = 0.2
 		supply_consumption = 0.5
 		can_be_parachuted = no
 		
 		# Important Ability
-		reliability_factor = 0.05
-		equipment_capture_factor = 0.05
+		reliability_factor = 0.02
+		equipment_capture_factor = 0.02
 		
 		essential = {
 			support_equipment
@@ -219,7 +219,7 @@ sub_units = {
 		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.1
-		recon = 1
+		recon = 0.5
 		can_be_parachuted = no
 
 		# Support nerfs to combat abilities
@@ -299,7 +299,7 @@ sub_units = {
 		can_be_parachuted = no
 		
 		# Important Ability
-		suppression_factor = 0.20
+		suppression_factor = 0.1
 
 		essential = {
 			support_equipment
@@ -348,8 +348,8 @@ sub_units = {
 		can_be_parachuted = no
 		
 		# Important Ability
-		initiative = 0.20
-		default_morale = 20
+		initiative = 0.1
+		default_morale = 10
 		
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
@@ -384,10 +384,10 @@ sub_units = {
 		}
 
 	
-		combat_width = 6
+		combat_width = 1
 	
 		#Size Definitions
-		max_strength = 2
+		max_strength = 0
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 100
@@ -399,8 +399,8 @@ sub_units = {
 		can_be_parachuted = no
 
 		# Important Ability
-		casualty_trickleback = 0.05
-		experience_loss_factor = -0.05
+		casualty_trickleback = 0.02
+		experience_loss_factor = -0.02
 
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 
@@ -410,6 +410,7 @@ sub_units = {
 		
 		need = {
 			support_equipment = 100
+			transport_equipment = 10
 		}
 	}
 }

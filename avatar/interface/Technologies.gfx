@@ -172,6 +172,15 @@ spriteTypes = {
 	}
 
 
+	### construction ###
+
+	SpriteType = {
+		name = "GFX_basic_construction_medium"
+		texturefile = "gfx/interface/technologies/industry/stone_age.dds"
+		alwaystransparent = yes
+	}
+
+
 
 	SpriteType = {
 		name = "GFX_basic_weapons_1_medium"
