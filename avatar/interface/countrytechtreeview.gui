@@ -65,7 +65,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_weapons"
-					position = { x = 1330 y = 80 }
+					position = { x = 1235 y = 80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -91,7 +91,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_armor"
-					position = { x = 530 y = 80 }
+					position = { x = 350 y = 80 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -104,7 +104,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year2"
-					position = { x = 60 y = 140 }
+					position = { x = 60 y = 200 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -116,7 +116,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_year3"
-					position = { x = 60 y = 300 }
+					position = { x = 60 y = 340 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -128,7 +128,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_year5"
-					position = { x = 60 y = 430 }
+					position = { x = 60 y = 480 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 10
@@ -139,29 +139,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_year6"
-					position = { x = 60 y = 580 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = 12
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year7"
-					position = { x = 60 y = 720 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = 13
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year8"
-					position = { x = 60 y = 860 }
+					position = { x = 60 y = 620 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 15
@@ -169,10 +147,10 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}				
+				}
 				instantTextBoxType = {
-					name = "infantry_year9"
-					position = { x = 60 y = 990 }
+					name = "infantry_year7"
+					position = { x = 60 y = 760 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 20
@@ -182,19 +160,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "infantry_year10"
-					position = { x = 60 y = 1140 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = 22
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}		
-				instantTextBoxType = {
-					name = "infantry_year11"
-					position = { x = 60 y = 1280 }
+					name = "infantry_year8"
+					position = { x = 60 y = 900 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 25
@@ -202,10 +169,10 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}						
+				}				
 				instantTextBoxType = {
-					name = "infantry_year12"
-					position = { x = 60 y = 1420 }
+					name = "infantry_year9"
+					position = { x = 60 y = 1040 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 30
@@ -215,8 +182,52 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
+					name = "infantry_year10"
+					position = { x = 60 y = 1180 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 35
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}		
+				instantTextBoxType = {
+					name = "infantry_year11"
+					position = { x = 60 y = 1320 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 40
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}						
+				instantTextBoxType = {
+					name = "infantry_year12"
+					position = { x = 60 y = 1460 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 45
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
 					name = "infantry_year13"
-					position = { x = 2240 y = 50 }
+					position = { x = 60 y = 1600 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 50
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}	
+				instantTextBoxType = {
+					name = "infantry_year14"
+					position = { x = 60 y = 1740 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 55
@@ -226,8 +237,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}	
 				instantTextBoxType = {
-					name = "infantry_year14"
-					position = { x = 2460 y = 50 }
+					name = "infantry_year15"
+					position = { x = 60 y = 1880 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 60
@@ -235,10 +246,10 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}	
+				}
 				instantTextBoxType = {
-					name = "infantry_year15"
-					position = { x = 2640 y = 50 }
+					name = "infantry_year16"
+					position = { x = 60 y = 2020 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 65
@@ -248,8 +259,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "infantry_year16"
-					position = { x = 2860 y = 50 }
+					name = "infantry_year17"
+					position = { x = 60 y = 2160 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 70
@@ -257,10 +268,10 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}
+				}	
 				instantTextBoxType = {
-					name = "infantry_year17"
-					position = { x = 3080 y = 50 }
+					name = "infantry_year18"
+					position = { x = 60 y = 2300 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 75
@@ -268,10 +279,10 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}	
+				}
 				instantTextBoxType = {
-					name = "infantry_year18"
-					position = { x = 3280 y = 50 }
+					name = "infantry_year19"
+					position = { x = 60 y = 2440 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 80
@@ -281,8 +292,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "infantry_year19"
-					position = { x = 3480 y = 50 }
+					name = "infantry_year20"
+					position = { x = 60 y = 2580 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 85
@@ -292,8 +303,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "infantry_year20"
-					position = { x = 3640 y = 50 }
+					name = "infantry_year21 "
+					position = { x = 60 y = 2720 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = 90
@@ -301,19 +312,63 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}	
+				}
+				instantTextBoxType = {
+					name = "infantry_year22"
+					position = { x = 60 y = 2860 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 95
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "infantry_year23"
+					position = { x = 60 y = 3000 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 100
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "infantry_year24"
+					position = { x = 60 y = 3140 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 105
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "infantry_year25"
+					position = { x = 60 y = 3280 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = 110
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 
 			}
 	
 			gridboxtype = {
 				name = "basic_spear_1_tree"
-				position = { x = 1400 y = 200 }
+				position = { x = 1300 y = 200 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}	
 			gridboxtype = {
 				name = "basic_armor_tree"
-				position = { x = 580 y = 200 }
+				position = { x = 400 y = 200 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}	
