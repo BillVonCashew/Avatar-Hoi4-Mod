@@ -18,7 +18,7 @@ guiTypes = {
 
 	positionType = {
 		name = "countrystateview_weathericons_offset"
-		position = { x = -40 y = 0 }
+		position = { x = 0 y = 0 }
 	}	
 	
 	containerWindowType = {
@@ -390,7 +390,7 @@ guiTypes = {
 				}
 				iconType = {
 					name = "terrain_tu_zin_icon"
-					spriteType = "GFX_terrain_northern_tu_zin"
+					spriteType = "GFX_terrain_tu_zin"
 					alwaystransparent = yes
 				}
 				iconType = {
