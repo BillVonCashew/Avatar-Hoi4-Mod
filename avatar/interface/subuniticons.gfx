@@ -91,6 +91,16 @@ spriteTypes = {
 	noOfFrames = 2
 	}
 	spriteType = { 
+	name = "GFX_unit_ballista_icon_medium"        
+	textureFile = "gfx/interface/counters/divisions_large/unit_ballista_icon.dds"
+	noOfFrames = 2
+	}
+	spriteType = { 
+	name = "GFX_unit_ballista_icon_medium_white"            
+	textureFile = "gfx/interface/counters/divisions_small/onmap_ballista_icon.dds"
+	noOfFrames = 2
+	}
+	spriteType = { 
 	name = "GFX_unit_trebuchet_icon_medium"        
 	textureFile = "gfx/interface/counters/divisions_large/unit_trebuchet_icon.dds"
 	noOfFrames = 2
@@ -170,8 +180,8 @@ spriteTypes = {
 	textureFile = "gfx/interface/counters/divisions_large/unit_supply_wagon_icon.dds" noOfFrames = 2 
 	}
 	spriteType = { 
-	name = "GFX_unit_military_police_icon_medium"
-	textureFile = "gfx/interface/counters/divisions_large/unit_military_police_icon.dds" noOfFrames = 2 
+	name = "GFX_unit_infantry_guards_icon_medium"
+	textureFile = "gfx/interface/counters/divisions_large/unit_infantry_guards_icon.dds" noOfFrames = 2 
 	}
 	
 	##################################

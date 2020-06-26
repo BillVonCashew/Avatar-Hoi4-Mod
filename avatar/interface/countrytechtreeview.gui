@@ -359,6 +359,18 @@ guiTypes = {
 				}
 
 			}
+
+			containerWindowType = {
+				name = "tiled_research_bg"
+				position = { x=100 y=160 }
+				size = { width = 2200 height = 570 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg2"
+				}			
+			}
 	
 			gridboxtype = {
 				name = "basic_spear_1_tree"
@@ -3483,6 +3495,51 @@ guiTypes = {
 				size = { width = 478 height = 1350 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"				
+			}
+
+			containerWindowType = {
+				name = "techtree_xor_item"
+				position = { x=5 y=5 }
+				size = { width=60 height= 60 }
+
+				iconType = {
+					name = "First"
+					position = { x=0 y=0 }
+					spriteType = "GFX_techtree_xor_left"
+				}
+
+				iconType = {
+					name = "Second"
+					position = { x=0 y=0 }
+					spriteType = "GFX_techtree_xor_right"
+				}
+			}
+
+			containerWindowType = {
+				name = "techtree_xor_item1"
+				position = { x=295 y=1155 }
+				size = { width=60 height= 60 }
+
+				iconType = {
+					name = "powaa"
+					position = { x=0 y=0 }
+					spriteType = "GFX_techtree_xor_right"
+				}
+				iconType = {
+					name = "owo"
+					position = { x=960 y=0 }
+					spriteType = "GFX_techtree_xor_left"
+				}
+				iconType = {
+					name = "uwu"
+					position = { x=960 y=0 }
+					spriteType = "GFX_techtree_xor_right"
+				}
+				iconType = {
+					name = "reeee"
+					position = { x=1438 y=0 }
+					spriteType = "GFX_techtree_xor_left"
+				}
 			}
 
 

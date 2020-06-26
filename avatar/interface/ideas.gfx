@@ -125,6 +125,27 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_idea_earth_benders_only"
+		texturefile = "gfx/interface/ideas/idea_earthbender_law_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_earth_exceptional"
+		texturefile = "gfx/interface/ideas/idea_earthbender_law_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_earth_volunteers"
+		texturefile = "gfx/interface/ideas/idea_earthbender_law_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_earth_auxiliary"
+		texturefile = "gfx/interface/ideas/idea_earthbender_law_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_earth_indiscriminate"
+		texturefile = "gfx/interface/ideas/idea_earthbender_law_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_idea_water_benders_only"
 		texturefile = "gfx/interface/ideas/idea_waterbender_law_5.dds"
 	}

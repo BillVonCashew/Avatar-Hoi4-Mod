@@ -788,7 +788,7 @@ technologies = {
 	tech_military_police = {
 
 		enable_subunits = {
-			military_police
+			infantry_guards
 		}
 		
 		path = {

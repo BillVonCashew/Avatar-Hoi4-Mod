@@ -33,6 +33,15 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		allwaystransparent = yes	
 	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg2"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg2.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		allwaystransparent = yes	
+	}
 
 	corneredTileSpriteType = {
 		name = "GFX_techtree_stripes"

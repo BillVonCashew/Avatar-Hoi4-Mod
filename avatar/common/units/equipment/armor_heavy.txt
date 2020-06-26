@@ -13,14 +13,14 @@ equipments = {
 		active = no
 		
 		#Misc Abilities
-		reliability = 0.8
-		maximum_speed = 1
+		reliability = 0.7
+		maximum_speed = 0
 
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 3
-		hardness = 0.3
-		armor_value = 2
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 3
 
 		#Offensive Abilities
 		soft_attack = 0
@@ -31,13 +31,12 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.5
+		build_cost_ic = 1.6
 		resources = {
 			chromium = 1
-			iron = 1
 		}
 
-		fuel_consumption = 2.0
+		#fuel_consumption = 2.0
 		
 	}
 
@@ -57,21 +56,12 @@ equipments = {
 		visual_level = 1
 		
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 3
-		hardness = 0.3
-		armor_value = 2
-
-		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 0
+		armor_value = 6
 		
-		build_cost_ic = 1.1
+		reliability = 0.7
+		build_cost_ic = 1.8
 		resources = {
-			chromium = 2
-			iron = 1
+			chromium = 1
 		}
 	}
 	
@@ -83,22 +73,13 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 3
-		hardness = 0.3
-		armor_value = 2
-
-		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 0
+		armor_value = 9
 		
 		reliability = 0.8
-		build_cost_ic = 1.2
+		build_cost_ic = 2.0
 		resources = {
-			chromium = 2
-			iron = 2
+			chromium = 1
+			tungsten = 1
 		}
 	}
 
@@ -110,22 +91,13 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 3
-		hardness = 0.3
-		armor_value = 2
-
-		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 0
+		armor_value = 12
 		
 		reliability = 0.8
-		build_cost_ic = 1.3
+		build_cost_ic = 2.2
 		resources = {
-			chromium = 2
-			iron = 3
+			chromium = 1
+			tungsten = 1
 		}
 	}
 
@@ -137,22 +109,13 @@ equipments = {
 		visual_level = 4
 		
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 3
-		hardness = 0.3
-		armor_value = 2
-
-		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 0
+		armor_value = 15
 		
 		reliability = 0.8
-		build_cost_ic = 1.4
+		build_cost_ic = 2.4
 		resources = {
-			chromium = 3
-			iron = 3
+			chromium = 1
+			tungsten = 2
 		}
 	}
 
@@ -164,22 +127,49 @@ equipments = {
 		visual_level = 5
 		
 		#Defensive Abilities
-		defense = 30
-		breakthrough = 3
-		hardness = 0.3
-		armor_value = 2
-
-		#Offensive Abilities
-		soft_attack = 0
-		hard_attack = 0
-		ap_attack = 0
-		air_attack = 0
+		armor_value = 18
 		
 		reliability = 0.8
-		build_cost_ic = 1.5
+		build_cost_ic = 2.6
 		resources = {
-			chromium = 3
-			iron = 3
+			chromium = 1
+			tungsten = 2
+		}
+	}
+
+	heavy_armor_equipment_7 = {
+	
+		archetype = heavy_armor_equipment
+		parent = heavy_armor_equipment_6
+		priority = 10
+		visual_level = 5
+		
+		#Defensive Abilities
+		armor_value = 21
+		
+		reliability = 0.9
+		build_cost_ic = 2.8
+		resources = {
+			chromium = 1
+			iron = 1
+		}
+	}
+
+	heavy_armor_equipment_8 = {
+	
+		archetype = heavy_armor_equipment
+		parent = heavy_armor_equipment_7
+		priority = 10
+		visual_level = 5
+		
+		#Defensive Abilities
+		armor_value = 24
+		
+		reliability = 0.9
+		build_cost_ic = 3.0
+		resources = {
+			chromium = 1
+			iron = 2
 		}
 	}
 

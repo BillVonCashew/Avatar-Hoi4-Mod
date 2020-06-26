@@ -1060,6 +1060,10 @@ technologies = {
 			ballista_equipment_1
 		}
 
+		enable_subunits = {
+			ballista
+		}
+
 		path = {
 			leads_to_tech = ballista2
 			research_cost_coeff = 1
