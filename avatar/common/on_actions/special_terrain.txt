@@ -181,6 +181,245 @@ on_actions = {
 					static_modifiers = { terrain_northern_air_temple }
 					province = { id = 6075	}
 				}
+		
+
+
+			3841 = { # Tu Zin
+				add_province_modifier = {
+					static_modifiers = { terrain_tu_zin }
+					province = { id = 3841	}
+				}
+		
+
+
+			3127 = { # Gaoling
+				add_province_modifier = {
+					static_modifiers = { terrain_gaoling }
+					province = { id = 3127	}
+				}
+		
+
+
+			3524 = { # Chin Village
+				add_province_modifier = {
+					static_modifiers = { terrain_chin_village }
+					province = { id = 3524	}
+				}
+		
+
+
+			2962 = { # Kyoshi Island
+				add_province_modifier = {
+					static_modifiers = { terrain_kyoshi_island }
+					province = { id = 2962	}
+				}
+		
+
+
+			8691 = { # Banyan Grove Tree
+				add_province_modifier = {
+					static_modifiers = { terrain_banyan_grove_tree }
+					province = { id = 8691	}
+				}
+		
+
+
+			2229 = { # Misty Palms Oasis
+				add_province_modifier = {
+					static_modifiers = { terrain_misty_palms }
+					province = { id = 2229	}
+				}
+		
+
+
+			4473 = { # Library Tower
+				add_province_modifier = {
+					static_modifiers = { terrain_library_tower }
+					province = { id = 4473	}
+				}
+		
+
+
+			2921 = { # Plains Village
+				add_province_modifier = {
+					static_modifiers = { terrain_plains_village }
+					province = { id = 2921	}
+				}
+		
+
+
+			8584 = { # Omashu Center
+				add_province_modifier = {
+					static_modifiers = { terrain_omashu }
+					province = { id = 8584	}
+				}
+		
+
+
+			3137 = { # Omashu East
+				add_province_modifier = {
+					static_modifiers = { terrain_omashu }
+					province = { id = 3137	}
+				}
+		
+
+
+			8567 = { # Omashu West
+				add_province_modifier = {
+					static_modifiers = { terrain_omashu }
+					province = { id = 8567	}
+				}
+		
+
+
+			8599 = { # Omashu South
+				add_province_modifier = {
+					static_modifiers = { terrain_omashu }
+					province = { id = 8599	}
+				}
+		
+
+
+			8545 = { # Omashu North
+				add_province_modifier = {
+					static_modifiers = { terrain_omashu }
+					province = { id = 8545	}
+				}
+		
+
+
+			8486 = { # Cave of Two Lovers
+				add_province_modifier = {
+					static_modifiers = { terrain_lovers_cave }
+					province = { id = 8486	}
+				}
+		
+
+
+			7609 = { # Full Moon Bay
+				add_province_modifier = {
+					static_modifiers = { terrain_full_moon_bay }
+					province = { id = 7609	}
+				}
+		
+
+
+			7276 = { # Serpents Pass South
+				add_province_modifier = {
+					static_modifiers = { terrain_serpents_pass }
+					province = { id = 7276	}
+				}
+		
+
+
+			7259 = { # Serpents Pass North
+				add_province_modifier = {
+					static_modifiers = { terrain_serpents_pass }
+					province = { id = 7259	}
+				}
+		
+
+
+			3242 = { # Gaipan
+				add_province_modifier = {
+					static_modifiers = { terrain_gaipan }
+					province = { id = 3242	}
+				}
+		
+
+
+			4433 = { # Senlin
+				add_province_modifier = {
+					static_modifiers = { terrain_senlin }
+					province = { id = 4433	}
+				}
+		
+
+
+			8182 = { # Seaport Village
+				add_province_modifier = {
+					static_modifiers = { terrain_seaport_village }
+					province = { id = 8182	}
+				}
+		
+
+
+			6982 = { # Lake Laogai
+				add_province_modifier = {
+					static_modifiers = { terrain_lake_laogai }
+					province = { id = 6982	}
+				}
+		
+
+
+			1703 = { # Ba Sing Se Monorail
+				add_province_modifier = {
+					static_modifiers = { terrain_bss_mono }
+					province = { id = 1703	}
+				}
+		
+
+
+			6775 = { # Ba Sing Se University
+				add_province_modifier = {
+					static_modifiers = { terrain_bss_uni }
+					province = { id = 6775	}
+				}
+		
+
+
+			6810 = { # Ba Sing Se Headquarters
+				add_province_modifier = {
+					static_modifiers = { terrain_bss_war }
+					province = { id = 6810	}
+				}
+		
+
+
+			522 = { # Laghima's Peak
+				add_province_modifier = {
+					static_modifiers = { terrain_laghimas_peak }
+					province = { id = 522	}
+				}
+		
+
+
+			736 = { # Taku Fort
+				add_province_modifier = {
+					static_modifiers = { terrain_taku_fort }
+					province = { id = 736	}
+		
+
+
+			563 = { # Taku 
+				add_province_modifier = {
+					static_modifiers = { terrain_taku_fort }
+					province = { id = 563	}
+				}
+		
+
+
+			6682 = { # Pohuai Fort 
+				add_province_modifier = {
+					static_modifiers = { terrain_pohuai_fort }
+					province = { id = 6682	}
+				}
+		
+
+
+			4327 = { # Makapu Village 
+				add_province_modifier = {
+					static_modifiers = { terrain_makapu_village }
+					province = { id = 4327	}
+				}
+		
+
+
+			6648 = { # The Abbey 
+				add_province_modifier = {
+					static_modifiers = { terrain_the_abbey }
+					province = { id = 6648	}
+				}
 			}		
 		}
 	}
