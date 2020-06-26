@@ -60,4 +60,52 @@ spriteTypes = {
 		name = "GFX_terrain_sun_city"
 		textureFile = "gfx/interface/terrains/terrain_sun_city.dds"
 	}
+	# BOREAL CITY
+	spriteType = {
+		name = "GFX_terrain_boreal_city"
+		textureFile = "gfx/interface/terrains/terrain_boreal_city.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_boreal_harbour"
+		textureFile = "gfx/interface/terrains/terrain_boreal_harbour.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_boreal_citadel"
+		textureFile = "gfx/interface/terrains/terrain_boreal_citadel.dds"
+	}
+	# NORTHERN LIGHTS
+	spriteType = {
+		name = "GFX_terrain_northern_lights"
+		textureFile = "gfx/interface/terrains/terrain_northern_lights.dds"
+	}
+	# HARBOUR CITY
+	spriteType = {
+		name = "GFX_terrain_harbour_city"
+		textureFile = "gfx/interface/terrains/terrain_harbour_city.dds"
+	}
+	# SOUTH SPIRIT WILDS
+	spriteType = {
+		name = "GFX_terrain_spirit_forest"
+		textureFile = "gfx/interface/terrains/terrain_spirit_forest.dds"
+	}
+	# TANNU TUVA
+	spriteType = {
+		name = "GFX_terrain_southern_air_temple"
+		textureFile = "gfx/interface/terrains/terrain_southern_air_temple.dds"
+	}
+	# EAST AIR TEMPLE
+	spriteType = {
+		name = "GFX_terrain_eastern_air_temple"
+		textureFile = "gfx/interface/terrains/terrain_eastern_air_temple.dds"
+	}
+	# WEST AIR TEMPLE
+	spriteType = {
+		name = "GFX_terrain_western_air_temple"
+		textureFile = "gfx/interface/terrains/terrain_western_air_temple.dds"
+	}
+	# NORTHERN AIR TEMPLE
+	spriteType = {
+		name = "GFX_terrain_northern_air_temple"
+		textureFile = "gfx/interface/terrains/terrain_northern_air_temple.dds"
+	}
 }

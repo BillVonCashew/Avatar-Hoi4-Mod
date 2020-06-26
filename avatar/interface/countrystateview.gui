@@ -338,6 +338,56 @@ guiTypes = {
 					spriteType = "GFX_terrain_sun_city"
 					alwaystransparent = yes
 				}
+				iconType = {
+					name = "terrain_boreal_city_icon"
+					spriteType = "GFX_terrain_boreal_city"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_boreal_harbour_icon"
+					spriteType = "GFX_terrain_boreal_harbour"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_boreal_citadel_icon"
+					spriteType = "GFX_terrain_boreal_citadel"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_northern_lights_icon"
+					spriteType = "GFX_terrain_northern_lights"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_harbour_city_icon"
+					spriteType = "GFX_terrain_harbour_city"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_spirit_forest_icon"
+					spriteType = "GFX_terrain_spirit_forest"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_southern_air_temple_icon"
+					spriteType = "GFX_terrain_southern_air_temple"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_eastern_air_temple_icon"
+					spriteType = "GFX_terrain_eastern_air_temple"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_western_air_temple_icon"
+					spriteType = "GFX_terrain_western_air_temple"
+					alwaystransparent = yes
+				}
+				iconType = {
+					name = "terrain_northern_air_temple_icon"
+					spriteType = "GFX_terrain_northern_air_temple"
+					alwaystransparent = yes
+				}
 			}
 			
 			iconType = {

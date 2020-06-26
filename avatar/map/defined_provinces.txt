@@ -27,3 +27,39 @@
 
 7618 = { 7618 }		#Sun City
 
+
+5865 = { 5865 }		#Boreal City
+
+
+5957 = { 5957 }		#Boreal Harbour
+
+
+5823 = { 5823 }		#Boreal Citadel
+
+
+4714 = { 4714 }		#Northern Lights
+
+
+10122 = { 10122 }	#Harbour City
+
+
+10319 = { 10319 } 	#Spirit Forest
+
+
+9722 = { 9722 }		#Southern Air Temple
+
+
+687 = { 687 }		#Eastern Air Temple C
+
+
+785 = { 785 }		#Eastern Air Temple W
+
+
+1886 = { 1886 }		#Eastern Air Temple E
+
+
+6423 = { 6423 }		#Western Air Temple
+
+
+6075 = { 6075 }		#Northern Air Temple
+

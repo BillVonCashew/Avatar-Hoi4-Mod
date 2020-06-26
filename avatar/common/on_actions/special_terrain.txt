@@ -85,6 +85,102 @@ on_actions = {
 					static_modifiers = { terrain_sun_city }
 					province = { id = 7618	}
 				}
+		
+
+
+			5865 = { # Boreal City
+				add_province_modifier = {
+					static_modifiers = { terrain_boreal_city }
+					province = { id = 5865	}
+				}
+		
+
+
+			5957 = { # Boreal Harbour
+				add_province_modifier = {
+					static_modifiers = { terrain_boreal_harbour }
+					province = { id = 5957	}
+				}
+		
+
+
+			5823 = { # Boreal Citadel
+				add_province_modifier = {
+					static_modifiers = { terrain_boreal_citadel }
+					province = { id = 5823	}
+				}
+		
+
+
+			4714 = { # Northern Lights
+				add_province_modifier = {
+					static_modifiers = { terrain_northern_lights }
+					province = { id = 4714	}
+				}
+		
+
+
+			10122 = { # Harbour City
+				add_province_modifier = {
+					static_modifiers = { terrain_harbour_city }
+					province = { id = 10122	}
+				}
+		
+
+
+			10319 = { # Spirit Forest
+				add_province_modifier = {
+					static_modifiers = { terrain_spirit_forest }
+					province = { id = 10319	}
+				}
+		
+
+
+			9722 = { # Southern Air Temple
+				add_province_modifier = {
+					static_modifiers = { terrain_southern_air_temple }
+					province = { id = 9722	}
+				}
+		
+
+
+			687 = { # Eastern Air Temple Central
+				add_province_modifier = {
+					static_modifiers = { terrain_eastern_air_temple }
+					province = { id = 687	}
+				}
+		
+
+
+			785 = { # Eastern Air Temple West
+				add_province_modifier = {
+					static_modifiers = { terrain_eastern_air_temple }
+					province = { id = 785	}
+				}
+		
+
+
+			1886 = { # Eastern Air Temple East
+				add_province_modifier = {
+					static_modifiers = { terrain_eastern_air_temple }
+					province = { id = 1886	}
+				}
+		
+
+
+			6423 = { # Western Air Temple
+				add_province_modifier = {
+					static_modifiers = { terrain_western_air_temple }
+					province = { id = 6423	}
+				}
+		
+
+
+			6075 = { # Northern Air Temple
+				add_province_modifier = {
+					static_modifiers = { terrain_northern_air_temple }
+					province = { id = 6075	}
+				}
 			}		
 		}
 	}
