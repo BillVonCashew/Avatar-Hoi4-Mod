@@ -190,7 +190,7 @@ technologies = {
 	blade_update_1 = {
 
 		pikemen = {
-			ap_attack = 0.5
+			ap_attack = 0.25
 		}
 		
 		path = {
@@ -422,7 +422,7 @@ technologies = {
 	defensive_a_1 = {
 
 		category_light_infantry = {
-			ap_attack = 0.25
+			ap_attack = 0.50
 		}
 
 		research_cost = 1.5
@@ -733,7 +733,7 @@ technologies = {
 	blade_update_2 = {
 
 		pikemen = {
-			ap_attack = 0.5
+			ap_attack = 0.25
 		}
 
 		path = {
@@ -933,7 +933,7 @@ technologies = {
 	defensive_a_2 = {
 
 		category_light_infantry = {
-			ap_attack = 0.25
+			ap_attack = 0.50
 		}
 
 		research_cost = 1.5
@@ -1218,7 +1218,7 @@ technologies = {
 	blade_update_3 = {
 
 		pikemen = {
-			ap_attack = 0.5
+			ap_attack = 0.25
 		}	
 
 		path = {
@@ -1302,7 +1302,7 @@ technologies = {
 	defensive_a_3 = {
 
 		category_light_infantry = {
-			ap_attack = 0.25
+			ap_attack = 0.50
 		}
 
 		research_cost = 1.5
@@ -1766,7 +1766,7 @@ technologies = {
 	blade_update_4 = {
 
 		pikemen = {
-			ap_attack = 0.5
+			ap_attack = 0.25
 		}
 
 		path = {
@@ -1882,7 +1882,7 @@ technologies = {
 	defensive_a_4 = {
 
 		category_light_infantry = {
-			ap_attack = 0.25
+			ap_attack = 0.50
 		}
 
 		research_cost = 1.5
@@ -2155,7 +2155,7 @@ technologies = {
 	blade_update_5 = {
 
 		pikemen = {
-			ap_attack = 0.5
+			ap_attack = 0.25
 		}
 
 		path = {
@@ -2368,7 +2368,7 @@ technologies = {
 	defensive_a_5 = {
 
 		category_light_infantry = {
-			ap_attack = 0.25
+			ap_attack = 0.50
 		}
 
 		research_cost = 1.5
@@ -2554,7 +2554,7 @@ technologies = {
 		}
 		
 		pikemen = {
-			ap_attack = 0.5
+			ap_attack = 0.25
 			max_organisation = 2
 		}
 
@@ -2713,11 +2713,11 @@ technologies = {
 	basic_armor = {
 
 		enable_equipments = {
-			light_armor_equipment_0
+			heavy_armor_equipment_0
 		}
 		
 		path = {
-			leads_to_tech = light_armor_1
+			leads_to_tech = heavy_armor_1
 			research_cost_coeff = 1
 		}
 
@@ -2865,14 +2865,14 @@ technologies = {
 		}
 	}
 
-	light_armor_1 = {
+	heavy_armor_1 = {
 
 		enable_equipments = {
-			light_armor_equipment_1
+			heavy_armor_equipment_1
 		}
 		
 		path = {
-			leads_to_tech = light_armor_2
+			leads_to_tech = heavy_armor_2
 			research_cost_coeff = 1
 		}	
 
@@ -3020,14 +3020,14 @@ technologies = {
 		}
 	}
 
-	light_armor_2 = {
+	heavy_armor_2 = {
 
 		enable_equipments = {
-			light_armor_equipment_2
+			heavy_armor_equipment_2
 		}
 		
 		path = {
-			leads_to_tech = light_armor_3
+			leads_to_tech = heavy_armor_3
 			research_cost_coeff = 1
 		}	
 
@@ -3175,14 +3175,14 @@ technologies = {
 		}
 	}
 
-	light_armor_3 = {
+	heavy_armor_3 = {
 
 		enable_equipments = {
-			light_armor_equipment_3
+			heavy_armor_equipment_3
 		}
 		
 		path = {
-			leads_to_tech = light_armor_4
+			leads_to_tech = heavy_armor_4
 			research_cost_coeff = 1
 		}	
 
@@ -3330,14 +3330,14 @@ technologies = {
 		}
 	}
 
-	light_armor_4 = {
+	heavy_armor_4 = {
 
 		enable_equipments = {
-			light_armor_equipment_4
+			heavy_armor_equipment_4
 		}
 		
 		path = {
-			leads_to_tech = light_armor_5
+			leads_to_tech = heavy_armor_5
 			research_cost_coeff = 1
 		}	
 
@@ -3485,14 +3485,14 @@ technologies = {
 		}
 	}
 
-	light_armor_5 = {
+	heavy_armor_5 = {
 
 		enable_equipments = {
-			light_armor_equipment_5
+			heavy_armor_equipment_5
 		}
 		
 		path = {
-			leads_to_tech = light_armor_6
+			leads_to_tech = heavy_armor_6
 			research_cost_coeff = 1
 		}	
 		path = {
@@ -3637,14 +3637,14 @@ technologies = {
 		}
 	}
 	
-	light_armor_6 = {
+	heavy_armor_6 = {
 
 		enable_equipments = {
-			light_armor_equipment_6
+			heavy_armor_equipment_6
 		}
 		
 		path = {
-			leads_to_tech = light_armor_7
+			leads_to_tech = heavy_armor_7
 			research_cost_coeff = 1
 		}	
 		path = {
@@ -3789,10 +3789,10 @@ technologies = {
 		}
 	}
 	
-	light_armor_7 = {
+	heavy_armor_7 = {
 
 		enable_equipments = {
-			light_armor_equipment_7
+			heavy_armor_equipment_7
 		}
 
 		research_cost = 2.0
