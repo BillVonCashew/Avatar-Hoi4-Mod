@@ -28,26 +28,37 @@ set_popularities = {
 	pacifism = 0
 }
 
+create_country_leader = {
+	name = "Huu"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "huu.dds"
+	expire = "151.3.24"
+	ideology = liberalism
+	traits = { }
+}
+
+create_corps_commander = {
+ 	name = "Due"
+	picture = "due_swamp.dds"
+ 	traits = { }
+ 	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+ 	name = "Tho"
+	picture = "tho.dds"
+ 	traits = { }
+ 	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
 set_cosmetic_tag = SWA_puppet
 
-52.1.1 ={
-
-	set_cosmetic_tag = SWA_puppet
-
-
 }
 
 
-
-105.2.4 ={
-
-	set_cosmetic_tag = SWA_puppet
-
-}
-
-
-111.10.30 ={
-
-	set_cosmetic_tag = SWA_puppet
-
-}

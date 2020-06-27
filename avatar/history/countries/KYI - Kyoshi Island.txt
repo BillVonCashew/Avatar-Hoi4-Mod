@@ -49,7 +49,6 @@ create_country_leader = {
 	ideology = liberalisma
 }
 
-
 }
 
 
