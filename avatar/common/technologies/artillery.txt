@@ -105,9 +105,6 @@ technologies = {
 			arrow_equipment_0
 		}
 		
-		enable_subunits = {
-			archers
-		}
 		path = {
 			leads_to_tech = arrowhead0
 			research_cost_coeff = 1
@@ -161,10 +158,6 @@ technologies = {
 		}
 		enable_equipments = {
 			arrow_equipment_b_0
-		}
-		
-		enable_subunits = {
-			archers
 		}
 		
 		path = {
@@ -234,6 +227,10 @@ technologies = {
 		
 		enable_equipments = {
 			bow_equipment_0
+		}
+
+		enable_subunits = {
+			archers
 		}
 		
 		research_cost = 1.5
@@ -414,10 +411,6 @@ technologies = {
 		}
 		enable_equipments = {
 			arrow_equipment_b_1
-		}
-		
-		enable_subunits = {
-			archers
 		}
 		
 		path = {
@@ -649,10 +642,6 @@ technologies = {
 		}
 		enable_equipments = {
 			arrow_equipment_b_2
-		}
-		
-		enable_subunits = {
-			archers
 		}
 		
 		path = {
@@ -887,10 +876,6 @@ technologies = {
 			arrow_equipment_b_3
 		}
 		
-		enable_subunits = {
-			archers
-		}
-		
 		path = {
 			leads_to_tech = arrowb4
 			research_cost_coeff = 1
@@ -1122,10 +1107,6 @@ technologies = {
 		}
 		enable_equipments = {
 			arrow_equipment_b_4
-		}
-		
-		enable_subunits = {
-			archers
 		}
 		
 		research_cost = 1.5
@@ -1443,7 +1424,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipments = {
-			arrow_equipment_5
+			arrow_equipment_b_5
 		}
 		
 		research_cost = 1.5
@@ -1947,6 +1928,9 @@ technologies = {
 		enable_equipments = {
 			ballista_equipment_0
 		}
+		enable_subunits = {
+			ballista
+		}
 
 		path = {
 			leads_to_tech = ballista1
@@ -1983,10 +1967,6 @@ technologies = {
 			catapult_equipment_1
 		}
 
-		enable_subunits = {
-			ballista
-		}
-
 		path = {
 			leads_to_tech = catapult2
 			research_cost_coeff = 1
@@ -2010,7 +1990,7 @@ technologies = {
 	
 	enginec1 = {
 	
-		catapult = {
+		catapult_brigade = {
 			breakthrough= 0.08
 			max_organisation = 0.02
 		}
@@ -2030,7 +2010,7 @@ technologies = {
 	}
 	
 	ammoc1 = {
-		catapult = {
+		catapult_brigade = {
 			soft_attack = 0.03
 			hard_attack = 0.03
 			ap_attack = 0.2
@@ -2294,7 +2274,7 @@ technologies = {
 	
 	enginec2 = {
 	
-		catapult = {
+		catapult_brigade = {
 			breakthrough = 0.08
 			max_organisation = 0.02
 		}
@@ -2314,7 +2294,7 @@ technologies = {
 	}
 	
 	ammoc2 = {
-		catapult = {
+		catapult_brigade = {
 			soft_attack = 0.03
 			hard_attack = 0.03
 			ap_attack = 0.2
@@ -2494,7 +2474,7 @@ technologies = {
 	
 	enginec3 = {
 	
-		catapult = {
+		catapult_brigade = {
 			breakthrough = 0.08
 			max_organisation = 0.02
 		}
@@ -2514,7 +2494,7 @@ technologies = {
 	}
 	
 	ammoc3 = {
-		catapult = {
+		catapult_brigade = {
 			soft_attack = 0.03
 			hard_attack = 0.03
 			ap_attack = 0.2
@@ -2693,7 +2673,7 @@ technologies = {
 	
 	enginec4 = {
 	
-		catapult = {
+		catapult_brigade = {
 			breakthrough = 0.08
 			max_organisation = 0.02
 		}
@@ -2713,7 +2693,7 @@ technologies = {
 	}
 	
 	ammoc4 = {
-		catapult = {
+		catapult_brigade = {
 			soft_attack = 0.03
 			hard_attack = 0.03
 			ap_attack = 0.2
@@ -2875,7 +2855,7 @@ technologies = {
 	
 	enginec5 = {
 	
-		catapult = {
+		catapult_brigade = {
 			breakthrough = 0.08
 			max_organisation = 0.02
 		}
@@ -2895,7 +2875,7 @@ technologies = {
 	}
 	
 	ammoc5 = {
-		catapult = {
+		catapult_brigade = {
 			soft_attack = 0.03
 			hard_attack = 0.03
 			ap_attack = 0.2

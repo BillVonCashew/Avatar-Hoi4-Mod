@@ -37,7 +37,7 @@ sub_units = {
 		supply_consumption = 1
 	
 		need = {
-			arrow_equipment = 2000
+			arrow_equipment = 3000
 			bow_equipment = 100
 		}
 	}
@@ -89,7 +89,7 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 1198
 		ai_priority = 100
-		active = yes
+		active = no
 		
 		type = {
 			infantry
@@ -164,7 +164,7 @@ sub_units = {
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
-		active = yes
+		active = no
 
 		type = {
 			infantry
@@ -185,8 +185,6 @@ sub_units = {
 		need = {
 			ballista_equipment = 20
 		}
-
-		can_be_parachuted = yes
 		
 		#Size Definitions
 		max_strength = 0.2

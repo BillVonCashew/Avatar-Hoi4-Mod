@@ -128,7 +128,7 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
 		essential = {
-			support_equipment
+			transport_equipment
 		}
 
 		need = {
@@ -234,6 +234,7 @@ sub_units = {
 
 		need = {
 			support_equipment = 10
+			light_armor_equipment = 10
 		}
 
 		forest = {
@@ -267,7 +268,7 @@ sub_units = {
 	infantry_guards = {
 		sprite = infantry
 		map_icon_category = infantry
-		priority = 0
+		priority = 700
 		ai_priority = 0
 		active = no
 
@@ -387,6 +388,7 @@ sub_units = {
 
 		need = {
 			support_equipment = 250
+			light_armor_equipment = 25
 		}
 
 	}
@@ -434,6 +436,7 @@ sub_units = {
 
 		essential = {
 			support_equipment
+			transport_equipment
 		}
 		
 		need = {

@@ -15,32 +15,34 @@ if = {
 }
 
 set_technology = {
-	fire_equipment = 1
 
 	basic_spear_1 = 1
-	
+	spear_2 = 1
+	spear_3 = 1
+	basic_pike_1 = 1
 	basic_armor = 1
 
-	marines = 1
-	trebuchets = 1
-	the_four_elements = 1
-	power = 1
+	ranged_weapons = 1
+	bow0 = 1
+	arrow0 = 1
+	catapult0 = 1
+	projectile1 =1
 
 	tech_support = 1
+	tech_military_police = 1
 	tech_engineers = 1
 	tech_scouts = 1
-	tech_high_command = 1
 
-	ranged_weapons = 1
-	arrow1 = 1
+	fire_equipment = 1
+	marines = 1
+	trebuchets = 1
 
-	standart_factory = 1
+	power = 1
+
 	infrastructure_1 = 1
-	extra_mil_1 = 1
-	dockyard_1 = 1
-	commandpost_1 = 1
-	naval_base_1 = 1
-	scout_tower_1 = 1
+	infrastructure_2 = 1
+	port_1 = 1
+	port_2 = 1
 
 
 	early_submarine = 1
@@ -88,7 +90,7 @@ add_ideas = {
 	#slight_war_exhaustion_gui
 
 	limited_fire_conscription
-	fire_auxiliary
+	fire_volunteers
 	limited_exports
 	partial_economic_mobilisation 
 	family_support_3

@@ -40,12 +40,33 @@ equipments = {
 		
 	}
 
-	bow_equipment_1 = {
+	bow_equipment_0 = {
 	
 		archetype = bow_equipment
 		active = no
 		priority = 05
 		visual_level = 0
+	}
+
+	bow_equipment_1 = {
+	
+		archetype = bow_equipment
+		parent = bow_equipment_0
+		priority = 10
+		visual_level = 0
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 2
+
+		#Offensive Abilities
+		soft_attack = 4
+
+		build_cost_ic = 1.6
+		resources = {
+			aluminium = 1
+			iron = 1
+		}
 	}
 
     bow_equipment_2 = {
