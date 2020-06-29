@@ -4,10 +4,8 @@ division_template = {
 	regiments = {
 		spearmen = { x = 0 y = 0 }
 		spearmen = { x = 0 y = 1 }
-		spearmen = { x = 0 y = 2 }
 		spearmen = { x = 1 y = 0 }
         spearmen = { x = 1 y = 1 }
-		spearmen = { x = 1 y = 2 }
 	}
 	
 	support = {
@@ -25,8 +23,6 @@ division_template = {
 	regiments = {
 		spearmen = { x = 0 y = 0 }
 		spearmen = { x = 0 y = 1 }
-		spearmen = { x = 1 y = 0 }
-        spearmen = { x = 1 y = 1 }
 	}
 	
 	support = {
@@ -44,8 +40,7 @@ division_template = {
 	regiments = {
 		earthbender = { x = 0 y = 0 }
 		earthbender = { x = 0 y = 1 }
-		earthbender = { x = 1 y = 0 }
-		earthbender = { x = 1 y = 1 }
+		earthbender = { x = 0 y = 2 }
 	}
 
 	priority = 1
@@ -63,7 +58,7 @@ units = {
 		}
 		location = 563
 		division_template = "Infantry Division"
-		#start_experience_factor = 0.3
+		start_experience_factor = 0.^1
 		#start_equipment_factor = 0.9
 	}
 
@@ -74,7 +69,7 @@ units = {
 		}
 		location = 7176
 		division_template = "Infantry Division"
-		#start_experience_factor = 0.3
+		start_experience_factor = 0.1
 		#start_equipment_factor = 0.9
 	}
 
@@ -108,10 +103,70 @@ units = {
 		}
 		location = 563
 		division_template = "Earthbender Unit"
-		#start_experience_factor = 0.3
+		start_experience_factor = 0.3
+		#start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 736
+		division_template = "Earthbender Unit"
+		start_experience_factor = 0.3
+		#start_equipment_factor = 1
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 736
+		division_template = "Earthbender Unit"
+		start_experience_factor = 0.3
 		#start_equipment_factor = 1
 	}
 
 
+
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = earthbender_equipment_1
+			creator = "TAK"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = heavy_armor_equipment_1
+			creator = "TAK"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = spear_equipment_0
+			creator = "TAK"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
 
 }

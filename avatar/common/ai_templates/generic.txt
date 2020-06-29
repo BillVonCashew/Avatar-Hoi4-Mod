@@ -463,17 +463,16 @@ garrison_generic = {
 			match_value = 3000.0
 			
 			support = { 
-				engineer = 1
+
 			}
 			
 			regiments = {
-				infantry = 4
+				spearmen = 2
 			}
 		}
 		
 		allowed_types = {
 			infantry
-			engineer
 		}
 	}
 }
@@ -614,7 +613,7 @@ spearmen_generic = {
 			}
 		}
 		
-		target_width = 20.0
+		target_width = 12.0
 		width_weight = 1.0
 		column_swap_factor = 0.5
 		
@@ -661,20 +660,12 @@ spearmen_generic = {
 			match_value = 3000.0
 			
 			regiments = {
-				spearmen = 10
+				spearmen = 4
 			}
 		}
 		
 		allowed_types = {
-			infantry		
-			engineer
-			recon
-			field_hospital
-			logistics_company
-			anti_tank
-			artillery
-			rocket_artillery
-			artillery_brigade
+			infantry
 		}
 	}
 }
@@ -722,7 +713,7 @@ infantry_big_generic = {
 			}
 		}
 		
-		target_width = 40.0
+		target_width = 24.0
 		width_weight = 1.5
 		column_swap_factor = 0.5
 		
@@ -769,30 +760,16 @@ infantry_big_generic = {
 			match_value = 5000.0
 			
 			support = {
-				engineer = 1
-				anti_tank = 1
-				recon = 1
-				signal_company = 1
-				logistics_company = 1
+				
 			}
 			
 			regiments = {
-				infantry = 14
-				artillery_brigade = 4
+				infantry = 8
 			}
 		}
 		
 		allowed_types = {
-			infantry		
-			engineer
-			recon
-			field_hospital
-			logistics_company
-			anti_tank
-			artillery
-			rocket_artillery
-			artillery_brigade
-			signal_company
+			infantry
 		}
 	}
 }

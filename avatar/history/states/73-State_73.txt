@@ -13,9 +13,9 @@ state={
 		victory_points = { 10554 4 }
 	
 		12.4.23 = {
-			owner = FIR
-			controller = FIR
-			add_core_of = EAR
+			owner = OMS
+			controller = OMS
+			add_core_of = OMS
 
 			buildings = {
 				infrastructure = 1

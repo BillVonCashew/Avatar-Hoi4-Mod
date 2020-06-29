@@ -3,24 +3,22 @@ capital = 155
 OOB = "POH_12"
 
 set_technology = {
+
+	basic_spear_1 = 1
+	basic_armor = 1
+	heavy_armor_1 = 1
+
 	earth_equipment = 1
 
-	basic_weapons_1 = 1
-	line_formation = 1
-
-	basic_armor = 1
-	armor_inovation = 1
-	heavy_armor_1 = 1
 	substance = 1
 
 	ranged_weapons = 1
 
-	standart_factory = 1
 	infrastructure_1 = 1
 }
 
 set_research_slots = 2
-set_convoys = 400
+set_convoys = 20
 set_stability = 0.4 
 set_war_support = 0.6
 
@@ -44,9 +42,10 @@ set_popularities = {
 }
 
 add_ideas = {
+	extensive_conscription
+	earth_volunteers
 	limited_exports
-	partial_economic_mobilisation 
-	limited_conscription
+	low_economic_mobilisation 
 	family_support_3
 }
 

@@ -29,7 +29,7 @@ infantry_FIR = {
 			}
 		}
 		
-		target_width = 24.0
+		target_width = 12.0
 		width_weight = 0.4
 		column_swap_factor = 0.7
 		
@@ -76,9 +76,7 @@ infantry_FIR = {
 			match_value = 3000.0
 			
 			regiments = {
-				spearmen = 6
-				swordsmen = 2
-				archers = 4
+				spearmen = 4
 			}
 		}
 		
