@@ -6,6 +6,34 @@ spriteTypes = {
 	### equipment ###
 
 	SpriteType = {
+		name = "GFX_basic_spear_1_medium"
+		texturefile = "gfx/interface/technologies/spear_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_spear_2_medium"
+		texturefile = "gfx/interface/technologies/spear_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_spear_3_medium"
+		texturefile = "gfx/interface/technologies/spear_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_basic_armor_medium"
+		texturefile = "gfx/interface/technologies/light_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bow0_medium"
+		texturefile = "gfx/interface/technologies/bow_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_arrow0_medium"
+		texturefile = "gfx/interface/technologies/arrow_equipment_0.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_tech_support_medium"
 		texturefile = "gfx/interface/technologies/support_equipment_1.dds"
 	}	
@@ -188,26 +216,6 @@ spriteTypes = {
 		name = "GFX_basic_gathering_medium"
 		texturefile = "gfx/interface/technologies/industry/logging_axes.dds"
 		alwaystransparent = yes
-	}
-
-
-
-	SpriteType = {
-		name = "GFX_basic_spear_1_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_spear_2_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_spear_3_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_basic_armor_medium"
-		texturefile = "gfx/interface/technologies/light_armor_1.dds"
 	}
 
 
