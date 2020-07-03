@@ -32,7 +32,7 @@ equipments = {
 		
 		build_cost_ic = 0.02
 		resources = {
-			aluminium = rubber
+			aluminium = 1
 		}
 		
 	}
@@ -168,7 +168,6 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 0.9
 		resources = {
-			steel = 1
 			aluminium = 1
 		}
 	}

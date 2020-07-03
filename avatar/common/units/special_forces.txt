@@ -117,6 +117,7 @@ sub_units = {
 	
 		need = {
 			trebuchet_equipment = 10
+			projectile_equipment = 100
 		}
 
 		forest = {
