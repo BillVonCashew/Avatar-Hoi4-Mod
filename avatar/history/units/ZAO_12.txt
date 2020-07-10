@@ -43,7 +43,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2085
+		location = 9132
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
 	}
@@ -53,7 +53,17 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2085
+		location = 4069
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		name = "Peasant Levy"
+		location = 5527
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.1
 	}
@@ -72,17 +82,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		name = "Peasant Levy"
-		location = 2085
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.1
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 2085
+		location = 5327
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.1
 	}

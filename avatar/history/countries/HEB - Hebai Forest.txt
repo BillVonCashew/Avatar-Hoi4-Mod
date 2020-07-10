@@ -4,6 +4,7 @@ OOB = "HEB_12"
 
 set_technology = {
 	earth_equipment = 1
+	earthbender_equipment = 1
 
 	basic_weapons_1 = 1
 	line_formation = 1

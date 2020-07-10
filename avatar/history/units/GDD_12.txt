@@ -63,7 +63,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3101
+		location = 3242
 		division_template = "Ghan Jin Militia"
 		start_experience_factor = 0.1
 	}
@@ -73,7 +73,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3101
+		location = 7465
 		division_template = "Ghan Jin Scouts"
 		start_experience_factor = 0.1
 	}
@@ -82,7 +82,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3101
+		location = 4193
 		division_template = "Zhang Raiders"
 		start_experience_factor = 0.1
 	}
@@ -91,8 +91,8 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3101
-		division_template = "Zhang Warriors"
+		location = 7502
+		division_template = "Zhang Warband"
 		start_experience_factor = 0.04
 	}
 }

@@ -77,7 +77,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2568
+		location = 3229
 		division_template = "Militia Regiment"
 		start_experience_factor = 0.1
 	}
@@ -87,7 +87,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2568
+		location = 7696
 		division_template = "Militia Regiment"
 		start_experience_factor = 0.1
 	}
@@ -96,8 +96,8 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		name = "Town Guardsmen
-		location = 2568
+		name = "Town Guardsmen"
+		location = 7609
 		division_template = "Spearmen Regiment"
 		start_experience_factor = 0.25
 	}
@@ -106,7 +106,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		name = "Huntsmen brigade"
+		name = "Huntsmen Brigade"
 		location = 2568
 		division_template = "Archer Regiment"
 		start_experience_factor = 0.25
@@ -116,8 +116,18 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2568
+		location = 5163
 		division_template = "Earthbender Regiment"
 		start_experience_factor = 0.3
+	}
+	
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4264
+		division_template = "Earthbender Regiment"
+		start_experience_factor = 0.38
 	}
 }

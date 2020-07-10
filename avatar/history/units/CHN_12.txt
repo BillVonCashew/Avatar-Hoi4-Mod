@@ -87,7 +87,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3524
+		location = 9241
 		division_template = "Militia Regiment"
 		start_experience_factor = 0.1
 	}
@@ -96,7 +96,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3524
+		location = 4242
 		division_template = "Militia Regiment"
 		start_experience_factor = 0.1
 	}
@@ -106,7 +106,7 @@ units = {
 				name_order = 1
 		}
 		name = "Peasant Levy"
-		location = 3524
+		location = 980
 		division_template = "Spearmen Regiment"
 		start_experience_factor = 0.04
 	}
@@ -116,7 +116,7 @@ units = {
 				name_order = 1
 		}
 		name = "Town Guardsmen"
-		location = 3524
+		location = 9054
 		division_template = "Spearmen Regiment"
 		start_experience_factor = 0.15
 	}
