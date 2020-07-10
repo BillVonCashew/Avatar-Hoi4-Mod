@@ -4,10 +4,8 @@ division_template = {
 	regiments = {
 		spearmen = { x = 0 y = 0 }
 		spearmen = { x = 0 y = 1 }
-		spearmen = { x = 0 y = 2 }
 		spearmen = { x = 1 y = 0 }
         spearmen = { x = 1 y = 1 }
-		spearmen = { x = 1 y = 2 }
 	}
 	
 	support = {
@@ -16,7 +14,7 @@ division_template = {
 
 	priority = 1
 
-	template_counter = 5
+	#template_counter = 5
 }
 
 division_template = {
@@ -25,8 +23,6 @@ division_template = {
 	regiments = {
 		spearmen = { x = 0 y = 0 }
 		spearmen = { x = 0 y = 1 }
-		spearmen = { x = 1 y = 0 }
-        spearmen = { x = 1 y = 1 }
 	}
 	
 	support = {
@@ -44,13 +40,12 @@ division_template = {
 	regiments = {
 		earthbender = { x = 0 y = 0 }
 		earthbender = { x = 0 y = 1 }
-		earthbender = { x = 1 y = 0 }
-		earthbender = { x = 1 y = 1 }
+		earthbender = { x = 0 y = 2 }
 	}
 
 	priority = 1
 
-	template_counter = 1
+	#template_counter = 1
 }
 
 #############################################
@@ -64,7 +59,7 @@ units = {
 		location = 7247
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.9
+		#start_equipment_factor = 0.9
 	}
 
 	division= {	
@@ -75,7 +70,18 @@ units = {
 		location = 7247
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.9
+		#start_equipment_factor = 0.9
+	}
+
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		#start_equipment_factor = 0.9
 	}
 
 	division= {	
@@ -86,37 +92,37 @@ units = {
 		location = 7247
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		#start_equipment_factor = 0.8
 	}
 	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 7247
+		location = 6640
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		#start_equipment_factor = 0.8
 	}
 	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 7247
+		location = 6640
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		#start_equipment_factor = 0.8
 	}
 	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 7247
+		location = 6914
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		#start_equipment_factor = 0.8
 	}
 
 	division= {	
@@ -124,20 +130,20 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 7247
+		location = 1872
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		#start_equipment_factor = 0.8
 	}
 	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 7247
+		location = 1872
 		division_template = "Earthbender Unit"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		#start_equipment_factor = 0.8
 	}
 
 
