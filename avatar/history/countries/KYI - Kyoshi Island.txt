@@ -1,39 +1,42 @@
-capital = 70
+capital = 105
 
 OOB = "KYI_12"
 
 
 set_technology = {
+
+	basic_spear_1 = 1
+	basic_armor = 1
+	heavy_armor_1 = 1
+
 	#earth_equipment = 1
 
-	basic_weapons = 1
-	spear1 = 1
-	sword1 = 1
-	pike1 = 1
-	armor = 1
-	light_armor1 = 1
-	heavy_armor1 = 1
+	substance = 1
+
+	ranged_weapons = 1
+
+	infrastructure_1 = 1
 }
 
 set_research_slots = 2
 set_country_flag = earth_nation 
 
-set_convoys = 100
+set_convoys = 24
 
 
 set_politics = {
-	ruling_party = democratica
+	ruling_party = monarchism
 	last_election = "12.1.1"
 	election_frequency = 120
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	tribalism = 20
-	democratica = 60
+	democratica = 40
 	imperialism = 0
-	monarchism = 15
-	pacifism = 5
+	monarchism = 40
+	pacifism = 0
 }
 
 52.1.1 ={
@@ -46,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Kyoshi_Oyaji.dds"
 	expire = "120.1.1"
-	ideology = liberalisma
+	ideology = constitutional_monarchy
 }
 
 }
@@ -61,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Kyoshi_Generic.dds"
 	expire = "60.1.1"
-	ideology = liberalisma
+	ideology = constitutional_monarchy
 }
 
 ##

@@ -3,25 +3,21 @@ capital = 37
 OOB = "YUE_12"
 
 set_technology = {
+	basic_spear_1 = 1
+	basic_armor = 1
+	heavy_armor_1 = 1
+
 	earth_equipment = 1
 
-	basic_weapons_1 = 1
-	line_formation = 1
-	basic_weapons_2 = 1
-	basic_armor = 1
-	light_armor_1 = 1
-	light_armor_2 = 1
-	armor_inovation = 1
-	heavy_armor_1 = 1
 	substance = 1
 
-	trade = 1
-	tool_use = 1
-	artisanship = 1
+	ranged_weapons = 1
+
+	infrastructure_1 = 1
 }
 
 set_research_slots = 2
-set_convoys = 400
+set_convoys = 10
 set_stability = 0.4 
 set_war_support = 0.6
 set_country_flag = earth_nation 
@@ -42,6 +38,14 @@ set_popularities = {
 	imperialism = 20
 	monarchism = 60
 	pacifism = 0
+}
+
+add_ideas = {
+	limited_earth_conscription
+	earth_auxiliary
+	limited_exports
+	low_economic_mobilisation 
+	family_support_3
 }
 
 set_cosmetic_tag = YUE_puppet

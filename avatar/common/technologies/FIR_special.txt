@@ -239,8 +239,8 @@ technologies = {
 	marines2 = {
 
 		marine = {
-			max_organisation = 5
-			soft_attack = 0.05
+			max_organisation = 2
+			default_morale = 0.05
 		}
 		path = {
 			leads_to_tech = marines3
@@ -268,7 +268,8 @@ technologies = {
 	marines3 = {
 
 		marine = {
-			max_organisation = 5
+			max_organisation = 2
+			default_morale = 0.05
 		}
 
 		path = {
@@ -296,7 +297,8 @@ technologies = {
 	marines4= {
 
 		marine = {
-			max_organisation = 5
+			max_organisation = 2
+			default_morale = 0.05
 		}
 
 		path = {
@@ -324,7 +326,8 @@ technologies = {
 	marines5= {
 
 		marine = {
-			max_organisation = 5
+			max_organisation = 2
+			default_morale = 0.05
 		}
 
 		path = {
@@ -352,7 +355,8 @@ technologies = {
 	marines6= {
 
 		marine = {
-			max_organisation = 5
+			max_organisation = 2
+			default_morale = 0.05
 		}
 
 		research_cost = 2.0

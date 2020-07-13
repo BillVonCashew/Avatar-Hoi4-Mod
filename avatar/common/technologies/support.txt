@@ -1581,7 +1581,7 @@ technologies = {
 	
 	tech_supply_wagons2 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1613,7 +1613,7 @@ technologies = {
 
 	tech_supply_wagons3 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1645,7 +1645,7 @@ technologies = {
 
 	tech_supply_wagons4 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1677,7 +1677,7 @@ technologies = {
 
 	tech_supply_wagons5 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1709,7 +1709,7 @@ technologies = {
 
 	tech_supply_wagons6 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1741,7 +1741,7 @@ technologies = {
 
 	tech_supply_wagons7 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
@@ -1773,7 +1773,7 @@ technologies = {
 
 	tech_supply_wagons8 = {
 
-		logistics_company = {
+		supply_wagon = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}

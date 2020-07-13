@@ -91,6 +91,20 @@ add_to_faction = YII
 			has_dlc = "Together for Victory"
 		}
 		set_autonomy = {
+			target = KYI
+			autonomous_state = autonomy_supervised_state
+		}
+		else = {
+			puppet = KYI
+		}
+	}
+
+
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
 			target = POH
 			autonomous_state = autonomy_state
 		}

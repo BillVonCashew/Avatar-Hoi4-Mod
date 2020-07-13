@@ -359,18 +359,6 @@ guiTypes = {
 				}
 
 			}
-
-			containerWindowType = {
-				name = "tiled_research_bg"
-				position = { x=100 y=160 }
-				size = { width = 2200 height = 570 }
-				clipping = no
-			
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_research_bg2"
-				}			
-			}
 	
 			gridboxtype = {
 				name = "basic_spear_1_tree"

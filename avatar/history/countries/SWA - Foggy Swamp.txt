@@ -5,7 +5,7 @@ OOB = "SWA_12"
 
 
 set_research_slots = 2
-set_convoys = 400
+set_convoys = 10
 set_stability = 0.4 
 set_war_support = 0.6
 
@@ -13,6 +13,18 @@ set_country_flag = water_nation
 
 set_technology = {
 	water_equipment = 1
+
+	basic_spear_1 = 1
+	basic_armor = 1
+	heavy_armor_1 = 1
+
+	earth_equipment = 1
+
+	substance = 1
+
+	ranged_weapons = 1
+
+	infrastructure_1 = 1
 }
 
 
@@ -30,6 +42,19 @@ set_popularities = {
 	monarchism = 40
 	pacifism = 0
 }
+
+add_ideas = {
+	limited_earth_conscription
+	earth_auxiliary
+	limited_exports
+	low_economic_mobilisation 
+	family_support_3
+}
+
+set_cosmetic_tag = SWA_puppet
+
+
+###########################
 
 create_country_leader = {
 	name = "Huu"
@@ -59,8 +84,4 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
-
-set_cosmetic_tag = SWA_puppet
-
-
 
