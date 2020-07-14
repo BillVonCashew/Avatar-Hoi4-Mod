@@ -579,7 +579,7 @@ NMilitary = {
 	WAR_SCORE_AIR_MONTHLY_FALLOFF = 10,			-- how much the warscore we got from the strategic bombing falls off every month.
 	
 	CORPS_COMMANDER_DIVISIONS_CAP = 20,			-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
-	DIVISION_SIZE_FOR_XP = 4,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
+	DIVISION_SIZE_FOR_XP = 2,                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
 	CORPS_COMMANDER_ARMIES_CAP = -1,			-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
 	FIELD_MARSHAL_DIVISIONS_CAP = 30,			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
 	FIELD_MARSHAL_ARMIES_CAP = 3,				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
@@ -588,14 +588,14 @@ NMilitary = {
 
 	RECON_SKILL_IMPACT = 5, -- how many skillpoints is a recon advantage worth when picking a tactic.
 
-	MAX_DIVISION_BRIGADE_WIDTH = 6,			-- Max width of regiments in division designer.
+	MAX_DIVISION_BRIGADE_WIDTH = 5,			-- Max width of regiments in division designer.
 	MAX_DIVISION_BRIGADE_HEIGHT = 5,		-- Max height of regiments in division designer.
-	MAX_DIVISION_SUPPORT_WIDTH = 0,			-- Max width of support in division designer.
-	MAX_DIVISION_SUPPORT_HEIGHT = 0,		-- Max height of support in division designer.
+	MAX_DIVISION_SUPPORT_WIDTH = 1,			-- Max width of support in division designer.
+	MAX_DIVISION_SUPPORT_HEIGHT = 5,		-- Max height of support in division designer.
 	
 	BASE_DIVISION_BRIGADE_GROUP_COST = 10, 	--Base cost to unlock a regiment slot,
-	BASE_DIVISION_BRIGADE_CHANGE_COST = 5,	--Base cost to change a regiment column.
-	BASE_DIVISION_SUPPORT_SLOT_COST = 100, 	--Base cost to unlock a support slot
+	BASE_DIVISION_BRIGADE_CHANGE_COST = 10,	--Base cost to change a regiment column.
+	BASE_DIVISION_SUPPORT_SLOT_COST = 10, 	--Base cost to unlock a support slot
 	
 	MAX_ARMY_EXPERIENCE = 999,			--Max army experience a country can store
 	MAX_NAVY_EXPERIENCE = 999,			--Max navy experience a country can store

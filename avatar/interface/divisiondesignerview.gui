@@ -157,7 +157,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "support_grid"
-				position = { x = 23 y = 57 }
+				position = { x = 446 y = 57 }
 				size = { width = 85 height = 100%% }
 				slotsize = { width = 82 height = 51 }
 				format = "UPPER_LEFT"
@@ -634,6 +634,17 @@ guiTypes = {
 			}
 		}
 
+		instantTextboxType = {
+			name = "support_header_label"
+			position = { x = 420 y = 196 }
+			font = "hoi_18mbs"
+			text = "SUPPORT_HEADER"
+			maxWidth = 110
+			maxHeight = 20
+			format = center
+			pdx_tooltip = "DESIGNER_SUPPORT_COLUMN_TITLE"
+		}
+
 		
 		containerWindowType = {
 			name = "designerregimentswindow"
@@ -995,7 +1006,7 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x=2 y=20}
+			position = {x=2 y=16}
 			Orientation = CENTER_LOWER
 			scale = 0.8
 			clicksound = click_default
@@ -1003,7 +1014,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 2 y = 21 }
+			position = { x = 2 y = 15 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			scale = 0.8

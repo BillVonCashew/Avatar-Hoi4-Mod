@@ -86,6 +86,23 @@ sub_units = {
 			sword_equipment = 100
 			heavy_armor_equipment = 100
 		}
+
+		marsh = {
+			attack = 0.4
+		}
+		river = {
+			attack = 0.5
+		}
+		amphibious = {
+			attack = 0.6
+		}
+
+		urban = {
+			defence = 0.4
+		}
+		village = {
+			defence = 0.2
+		}
 	}
 
 	pikemen = {

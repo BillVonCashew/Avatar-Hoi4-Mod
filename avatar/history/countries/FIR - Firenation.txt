@@ -19,6 +19,7 @@ set_technology = {
 	basic_spear_1 = 1
 	spear_2 = 1
 	spear_3 = 1
+	basic_sword_1 = 1
 	basic_armor = 1
 
 	ranged_weapons = 1

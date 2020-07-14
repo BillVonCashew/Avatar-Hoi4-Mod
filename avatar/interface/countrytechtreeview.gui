@@ -865,15 +865,9 @@ guiTypes = {
             	slotsize = { width = 70 height = 70 }
             	format = "UP"
         	}
-        	gridboxtype = {
-				name = "marines_tree"
-				position = { x = 1040 y = 120 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
 			gridboxtype = {
 				name = "trebuchets_tree"
-				position = { x = 1440 y = 120 }
+				position = { x = 1040 y = 120 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
