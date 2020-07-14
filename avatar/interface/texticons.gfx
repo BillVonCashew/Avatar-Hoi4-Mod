@@ -107,7 +107,12 @@ spriteTypes = {
 
 
 
-
+	spriteType = {
+		name = "GFX_unit_firebender_icon_small"
+		texturefile = "gfx/texticons/unit_firebender_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
 	spriteType = {
 		name = "GFX_unit_spearmen_icon_small"
 		texturefile = "gfx/texticons/unit_spearmen_icon_small.dds"

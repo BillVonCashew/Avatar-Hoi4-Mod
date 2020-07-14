@@ -16,6 +16,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
+			leads_to_tech = tech_combat_pioneers
+			research_cost_coeff = 1
+		}
+		path = {
 			leads_to_tech = tech_military_police
 			research_cost_coeff = 1
 		}
@@ -41,7 +45,7 @@ technologies = {
 		start_year = 10
 		folder = {
 			name = support_folder
-			position = { x = -4 y = 0 }
+			position = { x = -6 y = 0 }
 		}
 		
 		categories = {
@@ -50,6 +54,40 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
+		}
+	}
+
+	tech_combat_pioneers = {
+
+		enable_subunits = {
+			combat_pioneer
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 10
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
 		}
 	}
 

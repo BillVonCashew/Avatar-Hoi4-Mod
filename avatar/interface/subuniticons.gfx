@@ -164,6 +164,10 @@ spriteTypes = {
 	textureFile = "gfx/interface/counters/divisions_large/unit_engineer_icon.dds" noOfFrames = 2 
 	}
 	spriteType = { 
+	name = "GFX_unit_combat_pioneer_icon_medium"
+	textureFile = "gfx/interface/counters/divisions_large/unit_combat_pioneer_icon.dds" noOfFrames = 2 
+	}
+	spriteType = { 
 	name = "GFX_unit_field_hospital_icon_medium"
 	textureFile = "gfx/interface/counters/divisions_large/unit_field_hospital_icon.dds" noOfFrames = 2 
 	}

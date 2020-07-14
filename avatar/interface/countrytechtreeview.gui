@@ -1657,7 +1657,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "tiled_research_bg"
-				position = { x=820 y=160 }
+				position = { x=1020 y=160 }
 				size = { width = 300 height = 1170 }
 				clipping = no
 			
@@ -1669,13 +1669,13 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_support_tree"
-				position = { x = 480 y = 100 }
+				position = { x = 680 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "tech_transport_tree"
-				position = { x = 968 y = 100 }
+				position = { x = 1168 y = 100 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
