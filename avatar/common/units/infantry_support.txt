@@ -1,6 +1,6 @@
 sub_units = {
 
-	engineer = {
+	avatar_engineer = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 100
@@ -134,7 +134,7 @@ sub_units = {
 		weight = 0.1
 		supply_consumption = 0.02
 		
-		entrenchment  = 1
+		#entrenchment  = 1
 
 				
 		defense = 0.1
@@ -449,7 +449,7 @@ sub_units = {
 
 
 
-	high_command = {
+	field_commander = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -473,7 +473,7 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 1
-		max_organisation = 60
+		max_organisation = 30
 		manpower = 25
 		training_time = 300
 
@@ -484,7 +484,7 @@ sub_units = {
 		
 		# Important Ability
 		initiative = 0.1
-		default_morale = 10
+		default_morale = 1
 		
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
@@ -501,7 +501,7 @@ sub_units = {
 
 
 
-	field_hospital = {
+	avatar_field_hospital = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0

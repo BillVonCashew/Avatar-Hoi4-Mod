@@ -174,15 +174,15 @@ sub_units = {
 
 
 	ballista = {
-		sprite = infantry
+		sprite = artillery
 		map_icon_category = infantry
-		priority = 0
-		ai_priority = 0
+		priority = 600
+		ai_priority = 400
 		active = no
 
 		type = {
 			infantry
-			support
+			artillery
 		}
 
 		group = ranged

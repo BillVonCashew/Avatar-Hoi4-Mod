@@ -95,7 +95,7 @@ technologies = {
 	tech_engineers = {
 
 		enable_subunits = {
-			engineer
+			avatar_engineer
 		}
 		
 		path = {
@@ -128,7 +128,7 @@ technologies = {
 
 	tech_engineers2 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 		
@@ -162,7 +162,7 @@ technologies = {
 
 	tech_engineers3 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 		
@@ -196,7 +196,7 @@ technologies = {
 
 	tech_engineers4 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 		
@@ -230,7 +230,7 @@ technologies = {
 
 	tech_engineers5 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 		
@@ -264,7 +264,7 @@ technologies = {
 
 	tech_engineers6 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 		
@@ -298,7 +298,7 @@ technologies = {
 
 	tech_engineers7 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 
@@ -332,7 +332,7 @@ technologies = {
 
 	tech_engineers8 = {
 
-		engineer = {
+		avatar_engineer = {
 			entrenchment  = 1
 		}
 
@@ -591,7 +591,7 @@ technologies = {
 	tech_high_command = {
 
 		enable_subunits = {
-			high_command
+			field_commander
 		}
 		
 		path = {
@@ -620,9 +620,10 @@ technologies = {
 	
 	tech_high_command2 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 		
 		path = {
@@ -651,9 +652,10 @@ technologies = {
 
 	tech_high_command3 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 		
 		path = {
@@ -682,9 +684,10 @@ technologies = {
 
 	tech_high_command4 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 		
 		path = {
@@ -713,9 +716,10 @@ technologies = {
 
 	tech_high_command5 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 		
 		path = {
@@ -744,9 +748,10 @@ technologies = {
 
 	tech_high_command6 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 		
 		path = {
@@ -775,9 +780,10 @@ technologies = {
 
 	tech_high_command7 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 		
 		path = {
@@ -806,9 +812,10 @@ technologies = {
 
 	tech_high_command8 = {
 
-		high_command = {
+		field_commander = {
 			initiative = 0.1
-			default_morale = 10
+			default_morale = 1
+			max_organisation = 10
 		}
 
 		research_cost = 1.5
@@ -1339,7 +1346,7 @@ technologies = {
 	tech_field_hospital = {
 
 		enable_subunits = {
-			field_hospital
+			avatar_field_hospital
 		}
 		
 		path = {
@@ -1372,7 +1379,7 @@ technologies = {
 	
 	tech_field_hospital2 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
@@ -1403,7 +1410,7 @@ technologies = {
 
 	tech_field_hospital3 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
@@ -1434,7 +1441,7 @@ technologies = {
 
 	tech_field_hospital4 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
@@ -1465,7 +1472,7 @@ technologies = {
 
 	tech_field_hospital5 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
@@ -1496,7 +1503,7 @@ technologies = {
 
 	tech_field_hospital6 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
@@ -1527,7 +1534,7 @@ technologies = {
 
 	tech_field_hospital7 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
@@ -1558,7 +1565,7 @@ technologies = {
 
 	tech_field_hospital8 = {
 
-		field_hospital = {
+		avatar_field_hospital = {
 			casualty_trickleback = 0.02
 			experience_loss_factor = -0.02
 		}
