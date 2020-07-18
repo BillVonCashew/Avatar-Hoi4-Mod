@@ -1,3 +1,11 @@
 units = {
-
+	fleet = {
+		name = "Fire Navy"			
+		naval_base = 8218  #capital harbour
+		task_force = {
+			name = "First Fleet"
+			location = 8218  #capital harbour
+			ship = { name = "Scharnhorst" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FIR version_name = "Scharnhorst Class" } } }
+		}
+	}
 }
