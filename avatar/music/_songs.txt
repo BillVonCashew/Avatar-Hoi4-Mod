@@ -385,14 +385,3 @@ music = {
 		}		
 	}	
 }
-music = {
-	song = "its_a_long_way"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = yes
-		}		
-	}	
-}
