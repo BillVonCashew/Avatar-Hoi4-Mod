@@ -1,9 +1,20 @@
 ﻿l_english:
 
+ daily_war_weariness:0 "§YWar Weariness§! per day"
+ daily_war_weariness_desc:0 "Modifies the gain of War Weariness."
+ weekly_war_weariness:0 "§YWar Weariness§! per week"
+ weekly_war_weariness_desc:0 "Modifies the gain of War Weariness."
+ monthly_war_weariness:0 "§YWar Weariness§! per month"
+ monthly_war_weariness_desc:0 "Modifies the gain of War Weariness."
+
  modifier_production_speed_manufactory_factor:0 "§YManufactory§! construction speed"
  modifier_production_speed_manufactory_factor_desc:0 "Modifies the speed of Manufactory construction."
  modifier_production_speed_factory_factor:0 "§YSmithy§! construction speed"
  modifier_production_speed_factory_factor_desc:0 "Modifies the speed of Smithy construction."
+ modifier_production_speed_arms_factory_factor:0 "§YSmithy§! construction speed"
+ modifier_production_speed_arms_factory_factor_desc:0 "Modifies the speed of Smithy construction."
+ modifier_production_speed_industrial_complex_factor:0 "§YManufactory§! construction speed"
+ modifier_production_speed_industrial_complex_factor_desc:0 "Modifies the speed of Manufactory construction."
 
  MODIFIER_TECH_PREFIX:0 "£tech_mod "
  MODIFIER_POLITICS_PREFIX:0 "£pol_idea "
