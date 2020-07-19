@@ -3,6 +3,8 @@ capital = 417
 OOB = "FIR_12"
 
 set_country_flag = FIR_armor
+set_country_flag = FIR_navy
+set_country_flag = FIR_air_techs
 set_country_flag = FIR_special_forces
 set_country_flag = fire_nation
 

@@ -150,6 +150,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_fire_naval_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_fire_naval_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_water_naval_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_water_naval_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
 		name = "GFX_naval_doctrine_folder_tab"
 		textureFile = "gfx//interface//techtree//techtree_navaldoctrine_tab.dds"
 		noOfFrames = 2		
@@ -164,6 +176,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_AIR_air_techs_folder_tab"
 		textureFile = "gfx//interface//techtree//techtree_AIR_air_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_FIR_air_techs_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_FIR_air_tab.dds"
 		noOfFrames = 2		
 	}
 
