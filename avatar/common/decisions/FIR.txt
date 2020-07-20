@@ -1,14 +1,3 @@
-FIR_civil_decision_category = {
-	
-	increase_war_support = {
-
-
-	
-	}
-
-}
-
-
 
 FIR_conquest_category = {
 	
@@ -18,18 +7,25 @@ FIR_conquest_category = {
             AND = {
 				country_exists = EAR		
 				NOT = { has_war_with = EAR }
-				date > 12.12.18			
+				has_completed_focus = FIR_war_preperations
 			}
         }
 
-		complete_effect = {
-			declare_war_on = {
-				target = EAR
-				type = annex_everything
-			}
+        modifier = {
+			political_power_cost = 1
 		}
 
-		cost = 100
+		remove_effect = {
+			declare_war_on = {
+				target = EAR
+				type = puppet_wargoal_focus
+			}
+			create_wargoal = { type = puppet_wargoal_focus target = EAR }
+		}
+
+		days_remove = 30
+
+		cost = 0
         fire_only_once = yes
         ai_will_do = {
 			factor = 100
@@ -81,6 +77,27 @@ FIR_conquest_category = {
 	}
 
 
+
+}
+
+
+FIR_officer_school_category = {
+
+	land_department = {
+
+	
+	}
+	
+}
+
+
+FIR_civil_decision_category = {
+	
+	increase_war_support = {
+
+
+	
+	}
 
 }
 
@@ -445,11 +462,47 @@ FIR_colonies_category = {
 
 FIR_air_genocide_category = {
 
-	eastern_units = {
+	prepare_the_genocide = {
+
+		visible = {
+			always = yes
+		}
+
+		days_remove = 100
+
+		cost = 0
+
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = yes
+
+		complete_effect = {
+
+		}
+
+		timeout_effect = {
+			EAT = {
+				white_peace = FIR
+				give_military_access = FIR
+				leave_faction = yes
+			}
+			set_global_flag = east_temple_fallen
+		}
+
+        ai_will_do = {
+			factor = 100
+		}
+
+	}
+
+	commence_plan = {
 
 		available = {
 			has_idea = sozins_comet_1
-			has_war_with = EAT
         }
 
 		fire_only_once = yes
@@ -466,6 +519,30 @@ FIR_air_genocide_category = {
 			FIR = {
 				country_event = { id = firenation.8 days = 1 }
 				activate_mission = eastern_temple
+			}
+
+			WAT = {
+				country_event = { id = western.1 days = 1 }
+			}
+			FIR = {
+				country_event = { id = firenation.2 days = 1 }
+				activate_mission = western_temple
+			}
+
+			NAT = {
+				country_event = { id = northern.1 days = 1 }
+			}
+			FIR = {
+				country_event = { id = firenation.6 days = 1 }
+				activate_mission = northern_temple
+			}
+
+			SAT = {
+				country_event = { id = southern.1 days = 1 }
+			}
+			FIR = {
+				country_event = { id = firenation.4 days = 1 }
+				activate_mission = southern_temple
 			}
 		}
 
@@ -517,35 +594,6 @@ FIR_air_genocide_category = {
 
 	}
 
-	western_units = {
-
-		available = {
-			has_idea = sozins_comet_1
-			has_war_with = WAT
-        }
-
-		fire_only_once = yes
-
-		activation = {
-
-		}
-
-
-		complete_effect = {
-			WAT = {
-				country_event = { id = western.1 days = 1 }
-			}
-			FIR = {
-				country_event = { id = firenation.2 days = 1 }
-				activate_mission = western_temple
-			}
-		}
-
-        ai_will_do = {
-			factor = 100
-		}
-
-	}
 	
 	western_temple = {
 
@@ -589,36 +637,6 @@ FIR_air_genocide_category = {
 
 	}
 
-
-	northern_units = {
-
-		available = {
-			has_idea = sozins_comet_1
-			has_war_with = NAT
-        }
-
-		fire_only_once = yes
-
-		activation = {
-
-		}
-
-
-		complete_effect = {
-			NAT = {
-				country_event = { id = northern.1 days = 1 }
-			}
-			FIR = {
-				country_event = { id = firenation.6 days = 1 }
-				activate_mission = northern_temple
-			}
-		}
-
-        ai_will_do = {
-			factor = 100
-		}
-
-	}
 	
 	northern_temple = {
 
@@ -662,36 +680,6 @@ FIR_air_genocide_category = {
 
 	}
 
-
-	southern_units = {
-
-		available = {
-			has_idea = sozins_comet_1
-			has_war_with = SAT
-        }
-
-		fire_only_once = yes
-
-		activation = {
-
-		}
-
-
-		complete_effect = {
-			SAT = {
-				country_event = { id = southern.1 days = 1 }
-			}
-			FIR = {
-				country_event = { id = firenation.4 days = 1 }
-				activate_mission = southern_temple
-			}
-		}
-
-        ai_will_do = {
-			factor = 100
-		}
-
-	}
 	
 	southern_temple = {
 

@@ -117,8 +117,25 @@ ideas = {
 				attack_bonus_against = 0.10
 				#defense_bonus_against = 0.05
 			}
-
 		}
+
+		FIR_military_school = {	
+			picture = usa_war_department
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				max_command_power = 25	
+			}
+		}
+
 	}
 	
 	political_advisor = {

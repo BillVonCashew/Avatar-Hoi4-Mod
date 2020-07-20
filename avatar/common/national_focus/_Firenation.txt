@@ -1,0 +1,556 @@
+focus_tree = {
+	id = firenation_sozin
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FIR
+		}
+	}
+	#Focus for War Preperations
+	focus = {
+		id = FIR_war_preperations
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 7
+		y = 0
+		cost = 1.2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	#Focus for Experimental Forces
+	focus = {
+		id = FIR_experimental_forces
+		icon = GFX_goal_generic_build_airforce
+		x = 1
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_preperations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The last Offensive
+	focus = {
+		id = FIR_the_last_offensive
+		icon = GFX_goal_generic_army_tanks
+		x = 3
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_secure_the_colonies 
+		}
+		prerequisite = { 
+			focus = FIR_elite_benders 
+		}
+		mutually_exclusive = { focus = FIR_earthkingdom_settlements }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Earthkingdom Settlements
+	focus = {
+		id = FIR_earthkingdom_settlements
+		icon = GFX_goal_generic_construction2
+		x = 6
+		y = 4
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_secure_the_colonies }
+		mutually_exclusive = { focus = FIR_the_last_offensive }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hunt the Dragons
+	focus = {
+		id = FIR_hunt_the_dragons
+		icon = GFX_goal_generic_CAS
+		x = 15
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_propaganda_press }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expnasionism
+	focus = {
+		id = FIR_expnasionism
+		icon = GFX_goal_generic_position_armies
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_blachsmith_support
+		}
+		prerequisite = { 
+			focus = FIR_form_military_schools
+			focus = FIR_fleet_doctrines
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A new Education System
+	focus = {
+		id = FIR_a_new_education_system
+		icon = GFX_goal_generic_scientific_exchange
+		x = 13
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_propaganda_press }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A new World Order
+	focus = {
+		id = FIR_a_new_world_order
+		icon = GFX_goal_generic_dangerous_deal
+		x = 3
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_the_last_offensive }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Firenation Steelworks
+	focus = {
+		id = FIR_firenation_steelworks
+		icon = GFX_goal_generic_consumer_goods
+		x = 10
+		y = 5
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_resource_depletion 
+			focus = FIR_trains_and_railroads 
+			focus = FIR_centralize_the_capital 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Divine Right to Rule
+	focus = {
+		id = FIR_divine_right_to_rule
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 16
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_search_the_avatar
+			focus = FIR_hunt_the_dragons 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Trains and Railroads
+	focus = {
+		id = FIR_trains_and_railroads
+		icon = GFX_goal_generic_oil_refinery
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_infrastructure_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Infrastructure Program
+	focus = {
+		id = FIR_infrastructure_program
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 10
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_mobilize_the_homefront }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dockyard Expansion
+	focus = {
+		id = FIR_dockyard_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 7
+		y = 2
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_fleet_doctrines }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Siege Equipment
+	focus = {
+		id = FIR_siege_equipment
+		icon = GFX_goal_poland_goal
+		x = 0
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_experimental_forces }
+		mutually_exclusive = { focus = FIR_mobile_units }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mobile Units
+	focus = {
+		id = FIR_mobile_units
+		icon = GFX_goal_generic_cavalry
+		x = 2
+		y = 2
+		cost = 3
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_experimental_forces }
+		mutually_exclusive = { focus = FIR_siege_equipment }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Homedefense
+	focus = {
+		id = FIR_homedefense
+		icon = GFX_goal_generic_construction
+		x = 11
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_mobilize_the_homefront }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Front Support
+	focus = {
+		id = FIR_front_support
+		icon = GFX_goal_generic_small_arms
+		x = 9
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_mobilize_the_homefront }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Research University
+	focus = {
+		id = FIR_research_university
+		icon = GFX_focus_research2
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_centralize_the_capital }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for War Studies
+	focus = {
+		id = FIR_war_studies
+		icon = GFX_goal_generic_production2
+		x = 14
+		y = 3
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_a_new_education_system }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Blachsmith Support
+	focus = {
+		id = FIR_blachsmith_support
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 5
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_preperations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fleet Doctrines
+	focus = {
+		id = FIR_fleet_doctrines
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 7
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_preperations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Form Military Schools
+	focus = {
+		id = FIR_form_military_schools
+		icon = GFX_goal_rhineland
+		x = 3
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_preperations }
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			add_ideas = FIR_military_school
+		}
+	}
+
+	#Focus for Mobilize the Homefront
+	focus = {
+		id = FIR_mobilize_the_homefront
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 10
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_war_preperations 
+		}
+		prerequisite = { 
+			focus = FIR_propaganda_press 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Propaganda Press
+	focus = {
+		id = FIR_propaganda_press
+		icon = GFX_goal_generic_propaganda
+		x = 13
+		y = 0
+		cost = 2
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Secure the Colonies
+	focus = {
+		id = FIR_secure_the_colonies
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 5
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_expnasionism
+		}
+		prerequisite = { 
+			focus = FIR_siege_equipment
+			focus = FIR_mobile_units
+			focus = FIR_front_support
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Search the Avatar
+	focus = {
+		id = FIR_search_the_avatar
+		icon = GFX_goal_generic_radar
+		x = 17
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_propaganda_press }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Resource Depletion
+	focus = {
+		id = FIR_resource_depletion
+		icon = GFX_goal_generic_neutrality_focus
+		x = 8
+		y = 4
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_infrastructure_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Colonial Cooperation
+	focus = {
+		id = FIR_colonial_cooperation
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 7
+		y = 5
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_resource_depletion 
+		}
+		prerequisite = { 
+			focus = FIR_earthkingdom_settlements 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Armor Equipment
+	focus = {
+		id = FIR_armor_equipment
+		icon = GFX_goal_generic_defence
+		x = 18
+		y = 4
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_studies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Modern Doctrines
+	focus = {
+		id = FIR_modern_doctrines
+		icon = GFX_goal_generic_forceful_treaty
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_melee_equipment 
+			focus = FIR_ranged_equipment 
+			focus = FIR_armor_equipment 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ranged Equipment
+	focus = {
+		id = FIR_ranged_equipment
+		icon = GFX_goal_generic_army_artillery2
+		x = 14
+		y = 4
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_studies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Melee Equipment
+	focus = {
+		id = FIR_melee_equipment
+		icon = GFX_goal_generic_special_forces
+		x = 16
+		y = 4
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_war_studies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Centralize the Capital
+	focus = {
+		id = FIR_centralize_the_capital
+		icon = GFX_goal_generic_construct_civilian
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_infrastructure_program
+		}
+		prerequisite = { 
+			focus = FIR_homedefense
+			focus = FIR_social_economic_studies
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social Economic Studies
+	focus = {
+		id = FIR_social_economic_studies
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 13
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_a_new_education_system }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Elite Benders
+	focus = {
+		id = FIR_elite_benders
+		icon = GFX_goal_generic_political_pressure
+		x = 1
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_mobile_units 
+			focus = FIR_siege_equipment 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

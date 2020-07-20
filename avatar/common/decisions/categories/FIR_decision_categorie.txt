@@ -2,16 +2,6 @@
 #### Firenation ####
 ####################
 
-FIR_civil_decision_category = {
-	icon = ger_mefo_bills
-
-	picture = GFX_decision_cat_generic_mefo_bills
-
-	allowed = {
-		original_tag = FIR
-	}
-}
-
 FIR_conquest_category = {
 	icon = ger_mefo_bills
 
@@ -23,7 +13,6 @@ FIR_conquest_category = {
 
 	visible = {
 		original_tag = FIR
-		has_completed_focus = FIR_conquestplans
 	}
 }
 
@@ -38,7 +27,31 @@ FIR_air_genocide_category = {
 
 	visible = {
 		original_tag = FIR
-		has_completed_focus = FIR_airnomadsgenocide
+	}
+}
+
+FIR_officer_school_category = {
+	icon = ger_mefo_bills
+
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		original_tag = FIR
+	}
+
+	visible = {
+		original_tag = FIR
+		#has_completed_focus = FIR_form_military_schools
+	}
+}
+
+FIR_civil_decision_category = {
+	icon = ger_mefo_bills
+
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		original_tag = FIR
 	}
 }
 
