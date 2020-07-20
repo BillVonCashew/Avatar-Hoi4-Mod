@@ -57,7 +57,7 @@ news_event = {
 			100 = { FIR = { news_event = { id = news.1 } } }
 		}
 		FIR = {
-			add_timed_idea = { idea = sozins_comet_1 days = 100 }
+			add_timed_idea = { idea = sozins_comet_1 days = 120 }
 		}
 	
 	option = {

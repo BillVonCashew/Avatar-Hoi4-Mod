@@ -87,7 +87,7 @@ set_popularities = {
 
 
 add_ideas = {
-	national_prosperity_1
+	national_prosperity
 
 	#slight_war_exhaustion_gui
 

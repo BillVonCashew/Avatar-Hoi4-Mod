@@ -3,7 +3,7 @@
 ####################
 
 FIR_conquest_category = {
-	icon = ger_mefo_bills
+	icon = military_operation
 
 	picture = GFX_decision_cat_generic_mefo_bills
 
@@ -27,6 +27,9 @@ FIR_air_genocide_category = {
 
 	visible = {
 		original_tag = FIR
+		NOT = {
+			has_global_flag = air_nomad_genocide
+		}
 	}
 }
 

@@ -49,7 +49,6 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			set_global_flag = west_temple_fallen 
 			WAT = {
 				white_peace = FIR
 				leave_faction = yes
@@ -146,7 +145,6 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			set_global_flag = south_temple_fallen
 			SAT = {
 				white_peace = FIR
 				leave_faction = yes
@@ -232,7 +230,6 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			set_global_flag = north_temple_fallen
 			NAT = {
 				white_peace = FIR
 				leave_faction = yes
@@ -320,7 +317,6 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			set_global_flag = east_temple_fallen
 			EAT = {
 				white_peace = FIR
 			}
@@ -418,10 +414,22 @@ country_event = {
 	picture = GFX_report_event_air_nomad_genocide
 
 	trigger = {
-		has_global_flag = north_temple_fallen
-		has_global_flag = east_temple_fallen
-		has_global_flag = south_temple_fallen
-		has_global_flag = west_temple_fallen
+		OR = {
+			has_global_flag = north_temple_fallen
+			has_global_flag = north_temple_survived
+		}
+		OR = {
+			has_global_flag = east_temple_fallen
+			has_global_flag = east_temple_survived
+		}
+		OR = {
+			has_global_flag = south_temple_fallen
+			has_global_flag = south_temple_survived
+		}
+		OR = {
+			has_global_flag = west_temple_fallen
+			has_global_flag = west_temple_survived
+		}
 	}
 
 	fire_only_once = yes
@@ -433,6 +441,8 @@ country_event = {
 		}
 		
 		hidden_effect = {
+			set_global_flag = air_nomad_genocide
+
 			FIR = {
 				delete_unit_template_and_units = { division_template = "Special Attack Forces" }
 			}

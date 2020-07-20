@@ -15,8 +15,14 @@ focus_tree = {
 		y = 0
 		cost = 1.2
 		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_ANNEXATION}
 		ai_will_do = {
 			factor = 2
+		}
+
+		completion_reward = {
+			army_experience = 100
+			custom_effect_tooltip = war_preperations_tt
 		}
 	}
 
@@ -83,9 +89,9 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Expnasionism
+	#Focus for Expansionism
 	focus = {
-		id = FIR_expnasionism
+		id = FIR_expansionism
 		icon = GFX_goal_generic_position_armies
 		x = 5
 		y = 2
@@ -98,6 +104,7 @@ focus_tree = {
 			focus = FIR_form_military_schools
 			focus = FIR_fleet_doctrines
 		}
+		search_filters = {FOCUS_FILTER_ANNEXATION}
 		ai_will_do = {
 			factor = 1
 		}
@@ -382,7 +389,7 @@ focus_tree = {
 		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = FIR_expnasionism
+			focus = FIR_expansionism
 		}
 		prerequisite = { 
 			focus = FIR_siege_equipment
