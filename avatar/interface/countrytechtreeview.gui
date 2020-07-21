@@ -2542,13 +2542,13 @@ guiTypes = {
 				}
 			}
 
-			#gridboxtype = {
-			#	name = "early_ship_hull_light_tree"
-			#	position = { x = 150 y = 60}
-			#	size = { width = 100 height = 140 }
-			#	slotsize = { width = 70 height = 70 }
-			#	format = "LEFT"
-			#}
+			gridboxtype = {
+				name = "early_fire_cruiser_tree"
+				position = { x = 150 y = 60}
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 
 		}
 
