@@ -7,11 +7,20 @@ technologies = {
 		}
 		enable_equipment_modules = { 
 			steam_engine_1
+			ship_default_crew
 		}
-		#path = {
-		#	leads_to_tech = basic_ship_hull_light 
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = fire_cruiser_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ship_storage_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ship_assembled_catapult_1
+			research_cost_coeff = 1
+		}
 		
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -24,6 +33,72 @@ technologies = {
 		folder = {
 			name = firemtgnavalfolder
 			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	ship_storage_1 = {
+
+		enable_equipment_modules = { 
+			storage_room_1
+		}
+		path = {
+			leads_to_tech = ship_storage_2
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 12
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = 4 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	ship_assembled_catapult_1 = {
+
+		enable_equipment_modules = { 
+			ship_catapult_1
+		}
+		path = {
+			leads_to_tech = ship_assembled_catapult_2
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 12
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = 6 y = 0 }
 		}
 		
 		ai_will_do = {

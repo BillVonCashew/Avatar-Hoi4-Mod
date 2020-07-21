@@ -10,29 +10,25 @@ equipments = {
 		priority = 1900
 
 		module_slots = {
-			fixed_ship_battery_slot = {
-				required = no
-				allowed_module_categories = { ship_light_battery ship_medium_battery}
-			}
-			fixed_ship_anti_air_slot = {
-				required = no
-				allowed_module_categories = { ship_anti_air }
-			}
-			fixed_ship_fire_control_system_slot = {
-				required = no
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
-			}
-			fixed_ship_radar_slot = {
-				required = no
-				allowed_module_categories = { ship_radar ship_sonar }
+			fixed_ship_crew_slot = {
+				required = yes
+				allowed_module_categories = { ship_crew }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { steam_engine }
 			}
-			fixed_ship_secondaries_slot = {
+			fixed_ship_storage_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries }
+				allowed_module_categories = { extra_range }
+			}
+			fixed_ship_storage_2_slot = {
+				required = no
+				allowed_module_categories = { extra_range }
+			}
+			fixed_ship_ballista_slot = {
+				required = no
+				allowed_module_categories = { ship_ballista }
 			}
 			fixed_ship_armor_slot = {
 				required = no
@@ -41,25 +37,14 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
-					ship_anti_air
-					ship_light_battery
-					ship_medium_battery
-					ship_secondaries
-					ship_airplane_launcher
-					ship_mine_layer
+					ship_light_weapon
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
-					ship_light_battery
-					ship_medium_battery
-					ship_airplane_launcher
-					ship_mine_layer
-					ship_depth_charge
+					ship_ballista
 				}
 			}
 		}
@@ -75,13 +60,14 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_battery_slot = empty
-			fixed_ship_anti_air_slot = empty
-			fixed_ship_fire_control_system_slot = empty
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = steam_engine
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
+			fixed_ship_crew_slot = ship_default_crew
+			fixed_ship_engine_slot = steam_engine_1
+			fixed_ship_storage_slot = storage_room_1
+			fixed_ship_storage_2_slot = empty
+			fixed_ship_ballista_slot = empty
+			fixed_ship_armor_slot = empty
+			mid_1_custom_slot = ship_catapult_1
+			mid_2_custom_slot =ship_catapult_1
 			rear_1_custom_slot = empty
 		}
 		
@@ -105,19 +91,17 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.80
 		
-		naval_range = 2500
+		naval_range = 1300
 		
 		max_strength = 100		
 		
-
-		fuel_consumption = 20
+		fuel_consumption = 10
+		manpower = 100
 		
-		build_cost_ic = 1800
+		build_cost_ic = 1200
 		resources = {
 			steel = 1
 		}
-		
-		manpower = 800
 	}
 
 	firenation_cruiser_hull_1 = {

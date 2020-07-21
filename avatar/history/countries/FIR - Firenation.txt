@@ -48,6 +48,9 @@ set_technology = {
 
 
 	early_fire_cruiser = 1
+	ship_storage_1 = 1
+	ship_assembled_catapult_1 = 1
+
 	transport = 1
 }
 

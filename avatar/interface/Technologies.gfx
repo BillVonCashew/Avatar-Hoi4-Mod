@@ -144,6 +144,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/bison_equipment.dds"
 	}
 
+	### ships ###
+
+	SpriteType = {
+		name = "GFX_early_fire_cruiser_medium"
+		texturefile = "gfx/interface/technologies/firenation_cruiser_1.dds"
+	}
 
 	### land doctrines ###
 
