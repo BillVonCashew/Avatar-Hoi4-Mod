@@ -21,6 +21,10 @@ spriteTypes = {
 		name = "GFX_SM_default_crew"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_default_crew.dds"
 	}
+	spriteType = {
+		name = "GFX_SM_firebender_crew"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_firebender_crew.dds"
+	}
 
 ###################################################
 
