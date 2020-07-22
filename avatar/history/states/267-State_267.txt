@@ -8,8 +8,8 @@ state={
 		tungsten=0.000
 		aluminium=0.000
 		stone=0.000
-		iron=2.000
-		rubber=6.000
+		iron=6.000
+		rubber=16.000
 		steel=0.000
 	}
 

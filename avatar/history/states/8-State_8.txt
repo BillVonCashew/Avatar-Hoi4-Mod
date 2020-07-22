@@ -10,7 +10,7 @@ state={
 			add_core_of = NWT
 			buildings = {
 				infrastructure = 2
-
+				dockyard = 1
 			}
 
 		}

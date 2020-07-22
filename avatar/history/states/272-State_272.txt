@@ -7,10 +7,10 @@ state={
 		chromium=4.000
 		tungsten=0.000
 		aluminium=4.000
-		stone=4.000
+		stone=0.000
 		iron=0.000
 		rubber=0.000
-		steel=0.000
+		steel=4.000
 	}
 
 	history={
@@ -23,8 +23,9 @@ state={
 			add_core_of = FIR
 			buildings = {
 				infrastructure = 6
-				industrial_complex = 3
-				dockyard = 2
+				industrial_complex = 2
+				dockyard = 1
+				arms_factory = 1
 				8474 = {
 					naval_base = 2
 

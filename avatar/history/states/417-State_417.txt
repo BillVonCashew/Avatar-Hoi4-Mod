@@ -5,8 +5,8 @@ state={
 	state_category = metropolis
 
 	resources={
-		tungsten=30
-		steel=5
+		tungsten=20
+		steel=16
 	}
 
 	history={
@@ -23,7 +23,7 @@ state={
 
 			buildings = {
 				infrastructure = 10
-				dockyard = 5
+				dockyard = 2
 				industrial_complex = 3
 				arms_factory = 4
 				8218 = {

@@ -16,7 +16,7 @@ state={
 			add_core_of = SWT
 			buildings = {
 				infrastructure = 2
-
+				dockyard = 1
 			}
 
 		}
@@ -41,7 +41,7 @@ state={
 	provinces={
 		328 704 1934 1992 2369 3705 4692 4833 4853 5607 10271 10273 10282 10316 10322 10329 10335 10350 
 	}
-	manpower=7800
+	manpower=18800
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

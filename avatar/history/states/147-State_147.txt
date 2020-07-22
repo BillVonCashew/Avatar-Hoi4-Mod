@@ -4,7 +4,6 @@ state={
 	name="STATE_147"
 	resources={
 		stone=7.000
-		rubber=4.000
 		iron=11.000
 	}
 

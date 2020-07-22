@@ -15,10 +15,10 @@ state={
 			controller = SWT
 			add_core_of = SWT
 			buildings = {
-				dockyard = 4
+				dockyard = 2
 				infrastructure = 4
-				arms_factory = 3
-				industrial_complex = 2
+				arms_factory = 2
+				industrial_complex = 1
 				10122 = {
 					naval_base = 4
 
