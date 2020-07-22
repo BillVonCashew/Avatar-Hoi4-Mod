@@ -16,7 +16,56 @@ equipment_modules = {
 			build_cost_ic = 5
 		}
 		multiply_stats = {
-			reliability = 0.05
+			reliability = 0.2
+		}
+		dismantle_cost_ic = 700
+	}
+	ship_firebender_crew = {
+		category = ship_crew
+		
+		multiply_stats = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+		}
+		
+		add_stats = {
+			lg_attack = 3
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 700
+	}
+	ship_earthbender_crew = {
+		category = ship_crew
+		
+		
+		add_stats = {
+			lg_attack = 3
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 700
+	}
+	ship_airbender_crew = {
+		category = ship_crew
+		
+		
+		add_stats = {
+			lg_attack = 3
+			build_cost_ic = 150
+		}
+		dismantle_cost_ic = 700
+	}
+	ship_waterbender_crew = {
+		category = ship_crew
+		
+		
+		add_stats = {
+			lg_attack = 4
+			hg_attack = 4.0
+			build_cost_ic = 150
+		}
+		multiply_stats = {
+			lg_attack = 0.5
+			hg_attack = 0.5
 		}
 		dismantle_cost_ic = 700
 	}
@@ -347,6 +396,145 @@ equipment_modules = {
 	}
 
 
+
+###  ### ##### ###  ##  ##### #  ##  #   #
+#  # #     #   #   #  #   #   # #  # ##  #
+#  # ##    #   ##  #      #   # #  # # # #
+#  # #     #   #   #  #   #   # #  # #  ##
+###  ###   #   ###  ##    #   #  ##  #   #
+
+
+	crows_nest_1 = {
+		category = crows_nest
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 80
+			surface_detection = 5
+		}
+	}
+	crows_nest_2 = {
+		category = crows_nest
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 110
+			surface_detection = 7
+		}
+		
+		can_convert_from = {
+			module = crows_nest_1
+			convert_cost_ic = 30
+		}
+	}
+	crows_nest_3 = {
+		category = crows_nest
+		sfx = sfx_ui_sd_module_sonar
+		
+		multiply_stats = {
+			lg_attack = 0.05
+			hg_attack = 0.05
+			anti_air_attack = 0.05
+		}
+		add_stats = {
+			
+			surface_detection = 12
+			build_cost_ic = 140
+		}
+		can_convert_from = {
+			module = crows_nest_2
+			convert_cost_ic = 30
+		}
+		can_convert_from = {
+			module_category = crows_nest
+			convert_cost_ic = 60
+		}
+	}
+	crows_nest_4 = {
+		category = crows_nest
+		sfx = sfx_ui_sd_module_sonar
+
+		multiply_stats = {
+			lg_attack = 0.1
+			hg_attack = 0.1
+			anti_air_attack = 0.1
+		}
+		add_stats = {
+			
+			build_cost_ic = 170
+			surface_detection = 18
+		}
+		can_convert_from = {
+			module = crows_nest_3
+			convert_cost_ic = 30
+		}
+		can_convert_from = {
+			module_category = crows_nest
+			convert_cost_ic = 90
+		}
+	}
+
+	binoculars_1 = {
+		category = binoculars
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 20
+			surface_detection = 2
+		}
+	}
+	binoculars_2 = {
+		category = binoculars
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			build_cost_ic = 40
+			surface_detection = 4
+		}
+		
+		can_convert_from = {
+			module = binoculars_1
+			convert_cost_ic = 30
+		}
+	}
+	binoculars_3 = {
+		category = binoculars
+		sfx = sfx_ui_sd_module_sonar
+		
+		add_stats = {
+			
+			surface_detection = 6
+			build_cost_ic = 60
+		}
+		can_convert_from = {
+			module = binoculars_2
+			convert_cost_ic = 30
+		}
+		can_convert_from = {
+			module_category = binoculars
+			convert_cost_ic = 60
+		}
+	}
+	binoculars_4 = {
+		category = binoculars
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {
+			
+			build_cost_ic = 80
+			surface_detection = 8
+		}
+		can_convert_from = {
+			module = binoculars_3
+			convert_cost_ic = 30
+		}
+		can_convert_from = {
+			module_category = binoculars
+			convert_cost_ic = 60
+		}
+	}
+
+
  ## #####  ##  ###   ##   ##  ###
 #     #   #  # #  # #  # #    #
  #    #   #  # ###  #### # ## ##
@@ -355,8 +543,8 @@ equipment_modules = {
 
 
 	storage_room_1 = {
-		category = extra_range
-		
+		category = storage_room
+		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
 
@@ -367,6 +555,175 @@ equipment_modules = {
 			naval_range = 1
 		}
 		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = storage_room
+			convert_cost_ic = 120
+		}
+	}
+	storage_room_2 = {
+		category = storage_room
+		parent = storage_room_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.11
+			fuel_consumption = 1.1
+			naval_range = 1.1
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = storage_room
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = storage_room_1
+			convert_cost_ic = 45
+		}
+	}
+	storage_room_3 = {
+		category = storage_room
+		parent = storage_room_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.12
+			fuel_consumption = 1.2
+			naval_range = 1.2
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = storage_room
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = storage_room_2
+			convert_cost_ic = 45
+		}
+	}
+	storage_room_4 = {
+		category = storage_room
+		parent = storage_room_3
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.13
+			fuel_consumption = 1.3
+			naval_range = 1.3
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = storage_room
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = storage_room_4
+			convert_cost_ic = 45
+		}
+	}
+
+	supplies_1 = {
+		category = supplies
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
+			fuel_consumption = 1
+			naval_range = 1
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = supplies
+			convert_cost_ic = 120
+		}
+	}
+	supplies_2 = {
+		category = supplies
+		parent = supplies_1
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.11
+			fuel_consumption = 1.1
+			naval_range = 1.1
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = supplies
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = supplies_1
+			convert_cost_ic = 45
+		}
+	}
+	supplies_3 = {
+		category = supplies
+		parent = supplies_2
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.12
+			fuel_consumption = 1.2
+			naval_range = 1.2
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = supplies
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = supplies_2
+			convert_cost_ic = 45
+		}
+	}
+	supplies_4 = {
+		category = supplies
+		parent = supplies_3
+		sfx = sfx_ui_sd_module_engine
+		
+		add_stats = {
+
+		}
+		multiply_stats = {
+			build_cost_ic = 0.13
+			fuel_consumption = 1.3
+			naval_range = 1.3
+		}
+		dismantle_cost_ic = 700
+
+		can_convert_from = {
+			module_category = supplies
+			convert_cost_ic = 120
+		}
+		can_convert_from = {
+			module = supplies_4
+			convert_cost_ic = 45
+		}
 	}
 
 
@@ -378,7 +735,7 @@ equipment_modules = {
 
 
  	ship_catapult_1 = {
-		category = ship_light_weapon
+		category = ship_catapult
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -399,7 +756,7 @@ equipment_modules = {
 		critical_parts = { damaged_catapults }
 	}
 	ship_catapult_2 = {
-		category = ship_light_weapon
+		category = ship_catapult
 		parent = ship_catapult_1
 		sfx = sfx_ui_sd_module_turret
 		
@@ -425,6 +782,72 @@ equipment_modules = {
 			convert_cost_ic = 45
 		}
 		critical_parts = { damaged_catapults }
+	}
+
+
+#   # ###  ##  ###   ##  #   #   ###  #  ## 
+#   # #   #  # #  # #  # ##  #   #  # # #    
+# # # ##  #### ###  #  # # # #   ###  # # ##
+# # # #   #  # #    #  # #  ##   #  # # #  #
+ # #  ### #  # #     ##  #   #   ###  #  ## 
+
+
+
+ 	ship_trebuchet_1 = {
+		category = ship_trebuchet
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			
+			hg_attack = 12
+			build_cost_ic = 1250
+		}
+		multiply_stats = {
+			naval_speed = -0.05
+		}
+		add_average_stats = {
+			hg_armor_piercing = 31
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_trebuchet
+			convert_cost_ic = 700
+		}
+		critical_parts = { damaged_trebuchets }
+	}
+
+	ship_trebuchet_2 = {
+		category = ship_trebuchet
+		parent = ship_trebuchet_1
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
+		
+		add_stats = {
+			hg_attack = 14
+			build_cost_ic = 1350
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+		}
+		add_average_stats = {
+			hg_armor_piercing = 36
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_trebuchet
+			convert_cost_ic = 900
+		}
+		
+		can_convert_from = {
+			module = ship_trebuchet_1
+			convert_cost_ic = 600
+		}
+		critical_parts = { damaged_trebuchets }
 	}
 
 
@@ -456,5 +879,22 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 	}
+
+
+
+###   ##   ##  ###  ###  # #   #  ##
+#  # #  # #  # #  # #  # # ##  # #
+###  #  # #### ###  #  # # # # # # ##
+#  # #  # #  # #  # #  # # #  ## #  #
+###   ##  #  # #  # ###  # #   #  ##
+
+
+
+ ##  ###  #   #  ##  ###       ##  ##  #  # ### #   # ###  ## 
+#  # #  # ## ## #  # #  #     #   #  # #  # #   ## ## #   #   
+#### ###  # # # #  # ###       #  #    #### ##  # # # ##   #  
+#  # #  # #   # #  # #  #       # #  # #  # #   #   # #     # 
+#  # #  # #   #  ##  #  #     ##   ##  #  # ### #   # ### ##  
+	
 
 }
