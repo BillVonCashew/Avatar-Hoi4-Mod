@@ -26,13 +26,9 @@ equipments = {
 				required = no
 				allowed_module_categories = { storage_room }
 			}
-			fixed_ship_ballista_slot = {
-				required = no
-				allowed_module_categories = { ship_ballista }
-			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { ship_cruiser_armor }	
+				allowed_module_categories = { light_armor_plates }	
 			}
 			mid_1_custom_slot = {
 				required = no
@@ -41,10 +37,10 @@ equipments = {
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
+			bridge_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_ballista
+					binoculars
 				}
 			}
 		}
@@ -64,11 +60,10 @@ equipments = {
 			fixed_ship_engine_slot = steam_engine_1
 			fixed_ship_storage_slot = storage_room_1
 			fixed_ship_storage_2_slot = empty
-			fixed_ship_ballista_slot = empty
 			fixed_ship_armor_slot = empty
 			mid_1_custom_slot = ship_catapult_1
 			mid_2_custom_slot =ship_catapult_1
-			rear_1_custom_slot = empty
+			bridge_1_custom_slot = empty
 		}
 		
 		lg_armor_piercing = 0

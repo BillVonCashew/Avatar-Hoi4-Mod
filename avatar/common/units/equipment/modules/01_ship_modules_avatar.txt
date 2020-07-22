@@ -897,4 +897,25 @@ equipment_modules = {
 #  # #  # #   #  ##  #  #     ##   ##  #  # ### #   # ### ##  
 	
 
+	light_armor_plates_1 = {
+		category = light_armor_plates
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 26
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+		
+	}
+
+
 }
