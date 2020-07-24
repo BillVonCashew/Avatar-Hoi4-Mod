@@ -17,7 +17,7 @@ set_technology = {
 	uniform0 = 1
 }
 
-set_research_slots = 2
+set_research_slots = 1
 set_country_flag = water_nation 
 
 set_convoys = 60
@@ -44,6 +44,7 @@ add_ideas = {
 	civilian_economy
 	limited_water_conscription
 	family_support_3
+	no_education
 }
 
 106.2.4 ={

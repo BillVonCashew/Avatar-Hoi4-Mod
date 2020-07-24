@@ -37,7 +37,9 @@ add_ideas = {
 	limited_exports
 	civilian_economy
 	disarmed_air_nation
+	air_benders_only
 	family_support_3
+	mandatory_education
 }
 
 set_country_flag = air_nation 

@@ -13,7 +13,7 @@ ideas = {
 			level = 7
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.02
 				mobilization_speed = 0.01
 				industrial_capacity_dockyard = 0.15
 				local_resources_factor = 0.2
@@ -30,7 +30,7 @@ ideas = {
 			level = 6
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.05
 				mobilization_speed = 0.015
 				industrial_capacity_dockyard = 0.15
 				local_resources_factor = 0.10
@@ -50,7 +50,7 @@ ideas = {
 			level = 5
 
 			modifier = {
-				conscription = 0.025
+				conscription = 0.08
 				mobilization_speed = 0.025
 				industrial_capacity_dockyard = 0.05
 				local_resources_factor = 0.1
@@ -68,7 +68,7 @@ ideas = {
 			level = 7
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.02
 				mobilization_speed = 0.01
 				industry_repair_factor = 0.15
 				production_speed_buildings_factor = 0.2
@@ -85,7 +85,7 @@ ideas = {
 			level = 6
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.05
 				mobilization_speed = 0.015
 				industry_repair_factor = 0.1
 				production_speed_buildings_factor = 0.15
@@ -103,7 +103,7 @@ ideas = {
 			level = 5
 
 			modifier = {
-				conscription = 0.025
+				conscription = 0.08
 				mobilization_speed = 0.025
 				industry_repair_factor = 0.05
 				production_speed_buildings_factor = 0.1
@@ -121,7 +121,7 @@ ideas = {
                         level = 7
 
                         modifier = {
-                                conscription = 0.01
+                                conscription = 0.02
                                 mobilization_speed = 0.01
                                 industrial_capacity_dockyard = 0.12
                                 industrial_capacity_factory = 0.15
@@ -139,7 +139,7 @@ ideas = {
                         level = 6
 
                         modifier = {
-                                conscription = 0.015
+                                conscription = 0.05
                                 mobilization_speed = 0.015
                                 industrial_capacity_dockyard = 0.08
                                 industrial_capacity_factory = 0.10
@@ -156,7 +156,7 @@ ideas = {
                         level = 5
 
                         modifier = {
-                                conscription = 0.025 
+                                conscription = 0.08 
                                 mobilization_speed = 0.025
                                 industrial_capacity_dockyard = 0.04
                                 industrial_capacity_factory = 0.05
@@ -173,7 +173,7 @@ ideas = {
                         removal_cost = -1
                         level = 7
                         modifier = {
-                                conscription = 0.01
+                                conscription = 0.02
                                 mobilization_speed = 0.01
                                 industrial_capacity_dockyard = 0.06
                                 industrial_capacity_factory = 0.06
@@ -193,7 +193,7 @@ ideas = {
                         level = 6
 
                         modifier = {
-                                conscription = 0.015
+                                conscription = 0.05
                                 mobilization_speed = 0.015
                                 industrial_capacity_dockyard = 0.04
                                 industrial_capacity_factory = 0.04
@@ -213,7 +213,7 @@ ideas = {
                         level = 5
 
                         modifier = {
-                                conscription = 0.025 
+                                conscription = 0.08 
                                 mobilization_speed = 0.025
                                 industrial_capacity_dockyard = 0.02
                                 industrial_capacity_factory = 0.02
@@ -233,7 +233,7 @@ ideas = {
 			removal_cost = -1
 			level = 4
 			modifier = {
-				conscription = 0.05
+				conscription = 0.12
 				mobilization_speed = 0.05
 				training_time_factor = 0.1
 			}
@@ -263,7 +263,7 @@ ideas = {
 			level = 3
 
 			modifier = {
-				conscription = 0.1
+				conscription = 0.16
 				mobilization_speed = 0.1
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
@@ -290,7 +290,7 @@ ideas = {
 			level = 2
 
 			modifier = {
-				conscription = 0.2
+				conscription = 0.20
 				mobilization_speed = 0.2
 				industrial_capacity_factory = -0.3
 				industrial_capacity_dockyard = -0.3

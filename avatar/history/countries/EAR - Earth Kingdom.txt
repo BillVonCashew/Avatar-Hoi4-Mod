@@ -3,22 +3,30 @@
 OOB = "EAR_12"
 
 set_technology = {
-
 	basic_spear_1 = 1
 	spear_2 = 1
-	basic_armor = 1
+	basic_sword_1 = 1
+	sword_2 = 1
+	basic_polearm_1 = 1	
+	polearm_2 = 1
+
+
 	heavy_armor_1 = 1
+	heavy_armor_2 = 1
 
 	earth_equipment = 1
 
 	substance = 1
 
+	ranged_weapons = 1
+	bow0 = 1
+	arrow0 = 1
+	arrowb0 = 1
+	basic_armor = 1
+	light_armor_1 = 1
+	
 	infrastructure_1 = 1
-	infrastructure_2 = 1
-	fort_1 = 1
-	fort_2 = 1
-	fort_3 = 1
-	fort_4 = 1
+	reform_0 = 1
 }
 
 
@@ -41,12 +49,14 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_earth_conscription
+	volunteer_earth_nation
 	earth_benders_only
-	limited_exports
-	low_economic_mobilisation 
+	export_focus
+	civilian_economy
 	family_support_3
+	no_education
 }
+
 set_country_flag = earth_nation 
 
 create_faction = Earth_Kingdom

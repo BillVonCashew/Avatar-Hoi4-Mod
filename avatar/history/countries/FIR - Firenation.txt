@@ -55,7 +55,7 @@ set_technology = {
 }
 
 
-set_research_slots = 2
+set_research_slots = 3
 set_convoys = 140
 set_stability = 1 
 set_war_support = 0.6
@@ -83,11 +83,11 @@ add_ideas = {
 	#slight_war_exhaustion_gui
 
 	limited_fire_conscription
-	fire_volunteers
+	fire_exceptional
 	limited_exports
-	partial_economic_mobilisation 
+	low_economic_mobilisation 
 	family_support_3
-	mandatory_education
+	average_education
 }
 
 52.1.1 ={
