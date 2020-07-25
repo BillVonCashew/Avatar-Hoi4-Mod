@@ -174,7 +174,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_shield_medium"
 			position = { x = 26 y = 22 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		buttonType = {
@@ -194,7 +194,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_flag_small2"
 			position = { x = 8 y = 7 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		buttonType = {

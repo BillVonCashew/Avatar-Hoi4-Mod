@@ -455,11 +455,12 @@ pride_of_the_fleet_sunk_temporary = {
 }
 
 water_modifier_shark_infested = {
-	navy_casualty_on_sink = 0.6
+	navy_casualty_on_sink = 0.9
 }
 
 screening_bonus = { 
   naval_retreat_speed = 0.2 
+  convoy_retreat_speed = 0.2
   naval_hit_chance = 0.4
 }
 
