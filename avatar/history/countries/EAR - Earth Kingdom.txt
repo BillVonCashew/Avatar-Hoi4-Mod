@@ -61,7 +61,6 @@ set_country_flag = earth_nation
 
 create_faction = Earth_Kingdom
 add_to_faction = EAR
-add_to_faction = KYI
 add_to_faction = POH
 add_to_faction = TAK
 add_to_faction = HAN
@@ -96,20 +95,6 @@ add_to_faction = YII
 
 
 # DIPLOMACY
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = KYI
-			autonomous_state = autonomy_supervised_state
-		}
-		else = {
-			puppet = KYI
-		}
-	}
-
-
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
