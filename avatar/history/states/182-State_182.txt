@@ -10,7 +10,7 @@ state={
 
 	history={
 	
-		victory_points = { 5527 10 }
+		victory_points = { 2529 10 }
 	
 		12.4.23 = {
 			owner = ZAO

@@ -9,6 +9,9 @@ state={
 	}
 
 	history={
+	
+	victory_points = { 6205 20 }
+	
 		12.4.23 = {
 			owner = LAM
 			controller = LAM

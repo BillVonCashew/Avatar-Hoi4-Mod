@@ -4,6 +4,9 @@ state={
 	name="STATE_159"
 
 	history={
+	
+		victory_points = { 4473 1 }
+	
 		12.4.23 = {
 			owner = MPO
 			controller = MPO

@@ -17,6 +17,10 @@ set_technology = {
 
 	earth_equipment = 1
 
+	tech_combat_pioneers
+	tech_engineers
+	tech_high_command
+
 	substance = 1
 
 	ranged_weapons = 1
