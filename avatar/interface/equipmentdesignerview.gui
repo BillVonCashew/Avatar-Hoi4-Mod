@@ -98,28 +98,6 @@ guiTypes = {
 					spriteType = "GFX_ship_view_bg"
 				}
 
-				instantTextboxType = {
-					name = "custom_modules_label"
-					position = { x = 4 y = 6 }
-					font = "hoi_18mbs"
-					text = "CUSTOM_MODULES"
-					maxWidth = 180
-					maxHeight = 20
-					format = left
-					pdx_tooltip = "DESIGNER_CUSTOM_MODULES_TITLE"
-				}
-
-				instantTextboxType = {
-					name = "fixed_modules_label"
-					position = { x = 4 y = 224 }
-					font = "hoi_18mbs"
-					text = "FIXED_MODULES"
-					maxWidth = 180
-					maxHeight = 20
-					format = left
-					pdx_tooltip = "DESIGNER_FIXED_MODULES_TITLE"
-				}
-
 				# The window of the appropriate hull is inserted here by code
 
 			}

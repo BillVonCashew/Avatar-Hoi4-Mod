@@ -9,6 +9,8 @@ technologies = {
 			steam_engine_1
 			ship_default_crew
 			light_armor_plates_1
+			medium_armor_plates_1
+			binoculars_1
 		}
 		path = {
 			leads_to_tech = fire_cruiser_2

@@ -6249,7 +6249,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=137 y=54 }
+			position = { x=167 y=34 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes		
 			alwaystransparent = yes
@@ -6262,10 +6262,10 @@ guiTypes = {
 			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
-			maxWidth = 320
+			maxWidth = 270
 			maxHeight = 20
 			fixedsize = yes
-			format = right
+			format = left
 		}
 		iconType = {
 			name = "bonus_icon"

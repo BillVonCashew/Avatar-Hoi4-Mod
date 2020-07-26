@@ -1,3 +1,12 @@
+
+
+ ## #####  ##  ###  #####       #   ##
+#     #   #  # #  #   #        ##  #  #
+ #    #   #### ###    #       # #    #
+  #   #   #  # #  #   #         #   #
+##    #   #  # #  #   #         #  ####
+
+
 capital = 417
 
 OOB = "FIR_12"
@@ -89,6 +98,143 @@ add_ideas = {
 	family_support_3
 	average_education
 }
+
+
+create_country_leader = {
+	name = "Sozin"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Firenation_Zosin.dds"
+	expire = "32.4.7"
+	ideology = colonialism
+	traits = {
+		firelord
+		out_of_controll
+	}
+}
+
+
+create_field_marshal = {
+	name = "Sozin"
+	picture = "Portrait_Firenation_Zosin.dds"
+	traits = { skilled_staffer expert_staffer experienced_general offensive_infantry firelord }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+
+	id = 1
+}
+
+create_corps_commander = {
+	name = "Track"
+	picture = "Portrait_Firenation_Generic5.dds"
+	traits = { offensive_infantry sneak_attack cavalry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+
+	id = 2
+}
+
+create_corps_commander = {
+	name = "Konran"
+	picture = "Portrait_Firenation_Generic3.dds"
+	traits = { trait_mountaineer trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+
+	id = 3
+}
+
+create_corps_commander = {
+	name = "Waruidesu"
+	picture = "Portrait_Firenation_Generic2.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+
+	id = 4
+}
+
+create_corps_commander = {
+	name = "Yotto"
+	picture = "Portrait_Firenation_Generic14.dds"
+	traits = { trait_engineer naval_invader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+
+	id = 5
+}
+
+
+create_navy_leader = {
+	name = "Lee"
+		picture = "Portrait_Firenation_Generic8.dds"
+	traits = { naval_lineage battleship_adherent }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
+
+	id = 6
+}
+
+
+
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Explorer Class"
+		type = firenation_cruiser_hull_1
+		#name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+        	fixed_ship_engine_slot = steam_engine_1
+			fixed_ship_storage_slot = storage_room_1
+			fixed_ship_storage_2_slot = storage_room_1
+			fixed_ship_armor_slot = light_armor_plates_1
+			bridge_1_custom_slot = binoculars_1
+			mid_2_custom_slot = ship_ballista_1
+    	}
+	}
+
+	create_equipment_variant = {
+		name = "Destroyer Class"
+		type = firenation_cruiser_hull_1
+		#name_group = GER_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+        	fixed_ship_engine_slot = steam_engine_1
+			fixed_ship_storage_slot = storage_room_1
+			fixed_ship_armor_slot = medium_armor_plates_1
+			mid_1_custom_slot = ship_catapult_1
+			mid_2_custom_slot = ship_catapult_1
+    	}
+	}
+
+}
+
+
+ ## #####  ##  ###  #####     ####   #
+#     #   #  # #  #   #       #     ##
+ #    #   #### ###    #       ###  # #
+  #   #   #  # #  #   #          #   #
+##    #   #  # #  #   #       ###    #
+
 
 52.1.1 ={
 	
@@ -356,6 +502,16 @@ if = {
 
 }
 
+
+
+ ## #####  ##  ###  #####       #  ##    #
+#     #   #  # #  #   #        ## #  #  #
+ #    #   #### ###    #       # # #  # #  #
+  #   #   #  # #  #   #         # #  # #  #
+##    #   #  # #  #   #         #  ##   ##
+
+
+
 106.2.4 ={
 	
 	OOB = "FIR_106"
@@ -402,7 +558,7 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
-	id = 2
+	id = 7
 }
 
 create_field_marshal = {
@@ -414,7 +570,7 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
-	id = 3
+	id = 8
 }
 
 create_corps_commander = {
@@ -426,7 +582,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 1
-	id = 4
+	id = 9
 }
 
 
@@ -475,6 +631,14 @@ if = {
 }
 
 }
+
+
+
+ ## #####  ##  ###  #####       #   #   #
+#     #   #  # #  #   #        ##  ##  ##
+ #    #   #### ###    #       # # # # # #
+  #   #   #  # #  #   #         #   #   #
+##    #   #  # #  #   #         #   #   #
 
 
 
@@ -580,78 +744,4 @@ create_corps_commander = {
 # DIPLOMACY
 	
 
-}
-
-
-
-#################
-
-
-create_country_leader = {
-	name = "Sozin"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Firenation_Zosin.dds"
-	expire = "32.4.7"
-	ideology = colonialism
-	traits = {
-		firelord
-		out_of_controll
-	}
-}
-
-
-create_field_marshal = {
-	name = "Sozin"
-	picture = "Portrait_Firenation_Zosin.dds"
-	traits = { skilled_staffer expert_staffer experienced_general offensive_infantry firelord }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
-	id = 1
-}
-
-create_corps_commander = {
-	name = "Track"
-	picture = "Portrait_Firenation_Generic5.dds"
-	traits = { offensive_infantry sneak_attack cavalry_leader }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Konran"
-	picture = "Portrait_Firenation_Generic3.dds"
-	traits = { trait_mountaineer trait_engineer }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Waruidesu"
-	picture = "Portrait_Firenation_Generic2.dds"
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Yotto"
-	picture = "Portrait_Firenation_Generic14.dds"
-	traits = { trait_engineer naval_invader }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
 }
