@@ -53,16 +53,6 @@ bookmarks = {
 
 			}
 		}
-		"KYI"={
-			history = "KYI_THE_HUNDRED_YEARS_WAR_DESC"
-			ideology = democratic
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
 		"WAT"={
 			history = "WAT_THE_HUNDRED_YEARS_WAR_DESC"
 			ideology = pacifism
@@ -104,12 +94,18 @@ bookmarks = {
 			}
 		}
 
-		
-		"---"={
-			history = "OTHER_THE_HUNDRED_YEARS_WAR_DESC"
+
+		"KYI"={
+			minor = yes
+			history = "KYI_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
 		}
-
-
 		"POH"={
 			minor = yes
 			history = "EAT_THE_HUNDRED_YEARS_WAR_DESC"
